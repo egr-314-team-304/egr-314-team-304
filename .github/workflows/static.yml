@@ -26,7 +26,7 @@ jobs:
   deploy:
     environment:
       name: github-pages
-      url: ${{ egr-314-team-301.github.io }}
+      url: ${{ egr-314-team-304.github.io }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
