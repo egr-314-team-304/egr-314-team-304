@@ -1,3 +1,4 @@
-The Cool Cap
-EGR 314 Fall 2023
-(optional) Team Member Names
+## The Cool Cap
+## EGR 314 Fall 2023
+## Team Members
+# Tim Drafz
