@@ -1,3 +1,4 @@
+theme: Minimal
 ---
 Team 301
 ---
