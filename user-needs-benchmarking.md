@@ -164,20 +164,20 @@ Restated User Needs:<br>
 
 + Fits comfortably (Latent)<br>
 
-+ Helpful light to see where your going (Explicit)<br>
++ Helpful light to see where you are going (Explicit)<br>
 <br>
 
 
 Negative Comments:<br>
 Voice of the Customer<br>
-“There are only two LITTLE lights, not four, and they are very dim. The only thing they would be good for is finding your way along an unlit path at night. Otherwise, the hat is well-made, looks like it will last, but that isn't what I bought it for." <br>
+“There are only two LITTLE lights, not four, and they are very dim. The only thing they would be good for is finding your way along an unlit path at night. Otherwise, the hat is well-made, and looks like it will last, but that isn't what I bought it for." <br>
 <br>
 
 Restated User Needs:<br>
 
 + Too little of lights (Explicit)<br>
 
-+ Well made and long lasting (Explicit)<br>
++ Well made and long-lasting (Explicit)<br>
 
 + Needs to be properly functional (Latent)<br>
 <br>          
@@ -195,7 +195,7 @@ Keywords: “umbrella hat”<br>
 
 Price: $11.99<br>
 Vendor: Amazon<br>
-Description: Adjustable sun rain cap, 37.4” oversize hands free umbrellas, 7-ribs anti-UV waterproof headwear for fishing, gardening, golf, sunshade, and outdoor use.
+Description: Adjustable sun rain cap, 37.4” oversize hands-free umbrellas, 7-ribs anti-UV waterproof headwear for fishing, gardening, golf, sunshade, and outdoor use.
 
 Positive Comments<br>
 Voice of the Customer<br>
@@ -204,17 +204,17 @@ Voice of the Customer<br>
 
 Restated User Needs:<br>
 
-+ The hat allows for hands free use. (Explicit)<br>
++ The hat allows for hands-free use. (Explicit)<br>
 
 + The hat keeps the sun off the skin and protects it. (Explicit)<br>
 
-+ The hats support structure should be well secured to avoid bobbling around when turning/ moving about. (Latent)<br>
++ The hat's support structure should be well secured to avoid bobbling around when turning/ moving about. (Latent)<br>
 <br>
 
 
 Negative Comments<br>
 Voice of the Customer<br>
-"I like the size of the umbrella hat. However, it’s very hard to put and stay on your head. Also it’s very flimsy. I cut my fingers on the sharp metal bars that provide the little support there is. The metal needs to be filed or sanded down to prevent the sharp cuts to your fingers."<br>
+"I like the size of the umbrella hat. However, it’s very hard to put and stay on your head. Also, it’s very flimsy. I cut my fingers on the sharp metal bars that provide the little support there is. The metal needs to be filed or sanded down to prevent the sharp cuts to your fingers."<br>
 <br>
 
 Restated User Needs:<br>
