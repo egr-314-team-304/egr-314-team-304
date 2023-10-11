@@ -5,7 +5,7 @@ After our brainstorming session, our team set out to create some different proje
 
 ### Concept 1: Humidity/Light Flower Helper
 
-![Concept 1 Image](image_2023-08-29_232553604.png)
+![Concept 1 Image](Images/image_2023-08-29_232553604.png)
 
 Description of Concept 1:  
 - Detects humidity and temperature of dirt.
@@ -17,7 +17,7 @@ Description of Concept 1:
 
 ### Concept 2: Solar Panel Cleaner
 
-![Concept 2 Image](solar_panel.png)
+![Concept 2 Image](Images/solar_panel.png)
 
 Description of Concept 2:  
 - Detects dirt and other particles on solar panels.
@@ -30,7 +30,7 @@ Description of Concept 2:
 
 ### Concept 3: Cool Hat
 
-![Concept 3 Image](image_2023-08-29_232649040.png)
+![Concept 3 Image](Images/image_2023-08-29_232649040.png)
 
 Description of Concept 3:  
 - Utilises multiple light sensors to sense the direction of the sun during the day.
@@ -40,4 +40,4 @@ Description of Concept 3:
 
 All three designs held promise. In the end, our team chose to do the cool hat idea because it seemed like the project that could generate the most interesting final product and the one that would be the most rewarding and enjoyable to pull off. 
 
-[Home Page](index.md)
+[Home Page](Images/index.md)
