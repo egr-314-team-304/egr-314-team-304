@@ -30,4 +30,4 @@ We found times on Monday and Wednesday at 11:00 AM and 3:00 PM right after class
 We have agreed to communicate primarily via Discord and use group text and GitHub as secondary communication. Communicating via text will be our most synchronous communication method, with Discord being semi-synchronous and Google Drive being asynchronous. While synchronous communications are the fastest and most reliable, the other two options offer more in-depth forms of communication and allow us to share our work and progress on objectives more efficiently.
 
 
- [Home Page](index.md)
+[Home Page](index.md)
