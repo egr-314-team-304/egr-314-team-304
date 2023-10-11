@@ -42,9 +42,9 @@ Rationale: Initially option one seemed the best of the three. Featuring specific
 
 | Solution | Pros          | Cons          |
 | -------- | ------------- | ------------- |
-| Example1 | - Pro 1.1     | - Con 1.1     |
-|          | - Pro 1.2     | - Con 1.2     |
-|          | - Pro 1.3     | - Con 1.3     |
+| Example1 | - Very well documented data sheet      | - More expensive. Considering we will need to by multiple in case some get lost or damaged due to their small size     |
+|          | - Will be easy to find all necessary specifications     | - it could limit our budget    |
+|          |      |      |
 | Example2 | - Pro 2.1     | - Con 2.1     |
 |          | - Pro 2.2     | - Con 2.2     |
 |          | - Pro 2.3     | - Con 2.3     |
