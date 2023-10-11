@@ -1,4 +1,4 @@
 # Block Diagram
 
-![Image](Images/BlockDiagram)
+![Image](Images/BlockDiagram.png)
 
