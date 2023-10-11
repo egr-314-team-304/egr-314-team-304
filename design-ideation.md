@@ -40,4 +40,4 @@ Description of Concept 3:
 
 All three designs held promise. In the end, our team chose to do the cool hat idea because it seemed like the project that could generate the most interesting final product and the one that would be the most rewarding and enjoyable to pull off. 
 
-[Home Page](Images/index.md)
+[Home Page](index.md)
