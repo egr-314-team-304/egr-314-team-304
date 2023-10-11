@@ -20,9 +20,9 @@ Description of Concept 1:
 ![Concept 2 Image](solar_panel.png)
 
 Description of Concept 2:  
-- Detects dirt and other particles on solar panel.
+- Detects dirt and other particles on solar panels.
 - Also detects excessive heat buildup on the panels.
-- If the panels get too hot or dirty the device uses a water spray and wiper blade like arms to clean and, or cool the solar panels.
+- If the panels get too hot or dirty the device uses a water spray and wiper blade-like arms to clean and, or cool the solar panels.
 
 
 
@@ -33,9 +33,11 @@ Description of Concept 2:
 ![Concept 3 Image](image_2023-08-29_232649040.png)
 
 Description of Concept 3:  
-- Utalises multiple light sensors to sense the direction of the sun during the day.
+- Utilises multiple light sensors to sense the direction of the sun during the day.
 - The hat brim can rotate to shade the user in the direction of the sunlight. 
 - Humidity sensors also sense when the temperature is high humidity as well as hot.
-- Built in fans in the hat will cool the user under the hat. *Note, the hat has too seperate layers allowing for an air flow to blowunder the top layer directly on the user.
+- Built-in fans in the hat will cool the user under the hat. *Note, the hat has two separate layers allowing for an air flow to blow under the top layer directly on the user.
 
-All three designs held promise. In the end, our team chose to do the cool hat idea becuase it seemed like the project that could generate the most interesting final product and the one that would be the most rewarding and enjoyable to pull off. 
+All three designs held promise. In the end, our team chose to do the cool hat idea because it seemed like the project that could generate the most interesting final product and the one that would be the most rewarding and enjoyable to pull off. 
+
+[Home Page](index.md)
