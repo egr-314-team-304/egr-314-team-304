@@ -2,19 +2,19 @@
 --------------
 # Voltage Regulator
 
-| Solution | Pros          | Cons          |
+| Option 1 | Pros          | Cons          |
 | -------- | ------------- | ------------- |
 | ![](Images/VR1.png) | - Relatively cheap compared to other 3.3V regulators.    | - Maximum Vin is 6V (5.5V recommended); the input of our power budget. No extra room.     |
 | SC189ZSKTRT - IC REG BUCK 3.3V 1.5A $1.20/ea Link | - Small footprint on PCB so it is easier to fit with other components into smaller space.     | - Adjustable output voltage only goes from 1 to 3.3V so most of the range does not work for this project.  |
 | [Link](https://www.digikey.com/en/products/detail/semtech-corporation/SC189ZSKTRT/2182360) | - Small footprint on PCB so it is easier to fit with other components into smaller space.     |    |
 
-| Solution | Pros          | Cons          |
+| Option 2 | Pros          | Cons          |
 | -------- | ------------- | ------------- |
 | ![](Images/VR2.png) | - Higher voltage ceiling that can be stepped down.     | - Fixed output voltage which does not allow flexibility later on.     |
 | TLS4120D0EPV33XUMA1 - Switching Regulator IC 3.3V 2A $4.95/ea | - Good switching frequency range using both Khz and Mhz ranges. Better on/off control.    | - Very large; utilizes more space and pads.    |
 | [Link](https://www.digikey.com/en/products/detail/infineon-technologies/TLS4120D0EPV33XUMA1/12756107) |       |        |
 
-| Solution | Pros          | Cons          |
+| Option 3 | Pros          | Cons          |
 | -------- | ------------- | ------------- |
 | ![](Images/VR3.png) | - Output voltage is adjustable from 3.3V to 20V in case the power rail needs editing later on.     | - Output current is limited to 500mA maximum with a 380mA recommended.    |
 | LT3433EFE#TRPBF - IC REG BCK BST ADJ 500MA $9.54/ea | - Capable of both stepping-up and stepping-down the input voltage.     | - Far more expensive than most other 3.3V capable regulators.    |
@@ -27,17 +27,23 @@ Rationale: The second option provides a higher ceiling on the input voltage we c
 --------------
 # UV Light Sensor
 
-| Solution | Pros          | Cons          |
+| Option 1 | Pros          | Cons          |
 | -------- | ------------- | ------------- |
-| Example1 | - Senses specifically UV light, eliminating the chances of other light waves interfering with the signal.      | - A 2mm x 2mm dimension will make it harder to install and make sure its working   |
-|          | - Great price for our project.      | - Will make the piece hard to attach properly.    |
-|          |     |      |
-| Example2 | - Surface mount which is necessary for our system design   | - Component takes a higher understanding of light sensors     |
-|          | - Mainly used for UV light which is what we want for our system     | - A 2mmx2mm dimension makes it harder for us to install and make sure it works properly     |
-|          | - Given PCB outline makes it easier to understand how to install and get running    | -Also reads ambient light so that could effect our UV light readings    |
-| Example3 | - Has multifunctionlity adn is programmable for easier use     | - Higher cost than our usual light sensor     |
-|          | - Low power necessities     | - Has a limited range     |
-|          | - Works with our programs we want to use for our system     | - Needs calibration in orde to operate correctly     |
+| ![](Images/LS1.png) | - Senses specifically UV light, eliminating the chances of other light waves interfering with the signal.      | - A 2mm x 2mm dimension will make it harder to install and make sure its working   |
+| LTR-390UV-01 $0.62 | - Great price for our project.      | - Will make the piece hard to attach properly.    |
+| [Link](https://www.digikey.com/en/products/detail/liteon/LTR-390UV-01/7322497) |     |      |
+
+| Option 2 | Pros          | Cons          |
+| -------- | ------------- | ------------- |
+| ![](Images/LS2.png) | - Surface mount which is necessary for our system design   | - Component takes a higher understanding of light sensors     |
+| SI1132-A10-GM-ND $3.61 | - Mainly used for UV light which is what we want for our system     | - A 2mmx2mm dimension makes it harder for us to install and make sure it works properly     |
+| [Link](https://www.digikey.com/en/products/detail/silicon-labs/SI1132-A10-GM/6195840) | - Given PCB outline makes it easier to understand how to install and get running    | -Also reads ambient light so that could effect our UV light readings    |
+
+| Option 3 | Pros          | Cons          |
+| -------- | ------------- | ------------- |
+| ![](Images/LS3.png) | - Has multifunctionlity adn is programmable for easier use     | - Higher cost than our usual light sensor     |
+| SI1146-M01-GMR $4.43 | - Low power necessities     | - Has a limited range     |
+| [Link](https://www.digikey.com/en/products/detail/silicon-labs/SI1146-M01-GMR/5271747) | - Works with our programs we want to use for our system     | - Needs calibration in orde to operate correctly     |
 --------------
 Choice: Option 3
 -
@@ -46,70 +52,105 @@ Rationale: Initially option one seemed the best of the three. Featuring specific
 -----------------
 # Humidity Sensor
 
-| Solution | Pros          | Cons          |
+| Option 1 | Pros          | Cons          |
 | -------- | ------------- | ------------- |
-| Example1 | - Very well documented data sheet      | - More expensive. Considering we will need to by multiple in case some get lost or damaged due to their small size     |
-|          | - Will be easy to find all necessary specifications     | - it could limit our budget    |
-|          |      |      |
-| Example2 | - Pro 2.1     | - Con 2.1     |
-|          | - Pro 2.2     | - Con 2.2     |
-|          | - Pro 2.3     | - Con 2.3     |
-| Example3 | - Pro 3.1     | - Con 3.1     |
-|          | - Pro 3.2     | - Con 3.2     |
-|          | - Pro 3.3     | - Con 3.3     |
+| ![](Images/HS1.png) | - Very well documented data sheet      | - More expensive. Considering we will need to by multiple in case some get lost or damaged due to their small size     |
+| HDC3022DEJR $5.61 | - Will be easy to find all necessary specifications     | - It could limit our budget    |
+| [Link](https://www.digikey.com/en/products/detail/texas-instruments/HDC3022DEJR/17748469) |      |      |
+
+| Option 2 | Pros          | Cons          |
+| -------- | ------------- | ------------- |
+| ![](Images/HS2.png) | - Cheaper than usual     | - A 2mmx2mm dimension makes it harder for us to install and make sure it works properly     |
+| 1649-SHTC3-TR-10KSTR-ND $2.86 | - Surface mountable     | - Difficult to surface mount because of size of pins |
+| [Link](https://www.digikey.com/en/products/detail/sensirion-ag/SHTC3-TR-10KS/9477851) | -  Can be used as both a temperature and  humidity sensor |    |
+
+| Option 3 | Pros          | Cons          |
+| -------- | ------------- | ------------- |
+| ![](Images/HS3.png) | - Simple to understand     | - A 2mmx2mm dimension makes it harder for us to install and make sure it works properly     |
+| 1649-SHT45-AD1B-R2TR-ND $7.18 | - Only one output pin     | - More expensive. Considering we will need to by multiple in case some get lost or damaged due to their small size     |
+| [Link](https://www.digikey.com/en/products/detail/sensirion-ag/SHT45-AD1B-R2/16360966) | - Given PCB build     | - Has a limited range     |
 --------------
+Choice: Option 3
+-
+Rationale: The humanity sensor "SHT45-AD1B-R2" has a high resolution of 0.01% RH and 0.01°C, and a low power consumption of 0.4 µW at 1 measurement per second. It also has a fast response time of less than 1 second, and a long-term stability of less than 0.25% RH per year. Compared to other sensors of the same size, the "SHT45-AD1B-R2" offers better performance, reliability, and flexibility for different use cases.
+
+----------------------
 # Motor Driver
 
-| Solution | Pros          | Cons          |
+| Option 1 | Pros          | Cons          |
 | -------- | ------------- | ------------- |
-| Example1 | - Pro 1.1     | - Con 1.1     |
-|          | - Pro 1.2     | - Con 1.2     |
+| ![](Images/LS3.png) | - Pro 1.1     | - Con 1.1     |
+| [Link]() | - Pro 1.2     | - Con 1.2     |
 |          | - Pro 1.3     | - Con 1.3     |
-| Example2 | - Pro 2.1     | - Con 2.1     |
-|          | - Pro 2.2     | - Con 2.2     |
+
+| Option 2 | Pros          | Cons          |
+| -------- | ------------- | ------------- |
+| ![](Images/LS3.png) | - Pro 2.1     | - Con 2.1     |
+| [Link]() | - Pro 2.2     | - Con 2.2     |
 |          | - Pro 2.3     | - Con 2.3     |
-| Example3 | - Pro 3.1     | - Con 3.1     |
-|          | - Pro 3.2     | - Con 3.2     |
+
+| Option 3 | Pros          | Cons          |
+| -------- | ------------- | ------------- |
+| ![](Images/LS3.png) | - Pro 3.1     | - Con 3.1     |
+| [Link]() | - Pro 3.2     | - Con 3.2     |
 |          | - Pro 3.3     | - Con 3.3     |
 --------------
 # Temperature Sensor
 
-| Solution | Pros          | Cons          |
+| Option 1 | Pros          | Cons          |
 | -------- | ------------- | ------------- |
-| Example1 | - Pro 1.1     | - Con 1.1     |
-|          | - Pro 1.2     | - Con 1.2     |
+| ![](Images/LS3.png) | - Pro 1.1     | - Con 1.1     |
+| [Link]() | - Pro 1.2     | - Con 1.2     |
 |          | - Pro 1.3     | - Con 1.3     |
-| Example2 | - Pro 2.1     | - Con 2.1     |
-|          | - Pro 2.2     | - Con 2.2     |
+
+| Option 2 | Pros          | Cons          |
+| -------- | ------------- | ------------- |
+| ![](Images/LS3.png) | - Pro 2.1     | - Con 2.1     |
+| [Link]() | - Pro 2.2     | - Con 2.2     |
 |          | - Pro 2.3     | - Con 2.3     |
-| Example3 | - Pro 3.1     | - Con 3.1     |
-|          | - Pro 3.2     | - Con 3.2     |
+
+| Option 3 | Pros          | Cons          |
+| -------- | ------------- | ------------- |
+| ![](Images/LS3.png) | - Pro 3.1     | - Con 3.1     |
+| [Link]() | - Pro 3.2     | - Con 3.2     |
 |          | - Pro 3.3     | - Con 3.3     |
 --------------
 # Motor
 
-| Solution | Pros          | Cons          |
+| Option 1 | Pros          | Cons          |
 | -------- | ------------- | ------------- |
-| Example1 | - Pro 1.1     | - Con 1.1     |
-|          | - Pro 1.2     | - Con 1.2     |
+| ![](Images/LS3.png) | - Pro 1.1     | - Con 1.1     |
+| [Link]() | - Pro 1.2     | - Con 1.2     |
 |          | - Pro 1.3     | - Con 1.3     |
-| Example2 | - Pro 2.1     | - Con 2.1     |
-|          | - Pro 2.2     | - Con 2.2     |
+
+| Option 2 | Pros          | Cons          |
+| -------- | ------------- | ------------- |
+| ![](Images/LS3.png) | - Pro 2.1     | - Con 2.1     |
+| [Link]() | - Pro 2.2     | - Con 2.2     |
 |          | - Pro 2.3     | - Con 2.3     |
-| Example3 | - Pro 3.1     | - Con 3.1     |
-|          | - Pro 3.2     | - Con 3.2     |
+
+| Option 3 | Pros          | Cons          |
+| -------- | ------------- | ------------- |
+| ![](Images/LS3.png) | - Pro 3.1     | - Con 3.1     |
+| [Link]() | - Pro 3.2     | - Con 3.2     |
 |          | - Pro 3.3     | - Con 3.3     |
 --------------
 # OpAmp
 
-| Solution | Pros          | Cons          |
+| Option 1 | Pros          | Cons          |
 | -------- | ------------- | ------------- |
-| Example1 | - Pro 1.1     | - Con 1.1     |
-|          | - Pro 1.2     | - Con 1.2     |
+| ![](Images/LS3.png) | - Pro 1.1     | - Con 1.1     |
+| [Link]() | - Pro 1.2     | - Con 1.2     |
 |          | - Pro 1.3     | - Con 1.3     |
-| Example2 | - Pro 2.1     | - Con 2.1     |
-|          | - Pro 2.2     | - Con 2.2     |
+
+| Option 2 | Pros          | Cons          |
+| -------- | ------------- | ------------- |
+| ![](Images/LS3.png) | - Pro 2.1     | - Con 2.1     |
+| [Link]() | - Pro 2.2     | - Con 2.2     |
 |          | - Pro 2.3     | - Con 2.3     |
-| Example3 | - Pro 3.1     | - Con 3.1     |
-|          | - Pro 3.2     | - Con 3.2     |
+
+| Option 3 | Pros          | Cons          |
+| -------- | ------------- | ------------- |
+| ![](Images/LS3.png) | - Pro 3.1     | - Con 3.1     |
+| [Link]() | - Pro 3.2     | - Con 3.2     |
 |          | - Pro 3.3     | - Con 3.3     |
