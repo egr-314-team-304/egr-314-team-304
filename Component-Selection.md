@@ -3,7 +3,11 @@
 ## Table of Contents
 - [Voltage Regulator](#voltage-regulator)
 - [UV Light Sensor](#uv-light-sensor)
-- 
+- [Humidity Sensor](#humidity-sensor)
+- [Motor Driver](motor-driver)
+- [Temperature Sensor](temperature-sensor)
+- [Motor](motor)
+- [OpAmp](opamp)
 --------------
 ## Voltage Regulator
 
@@ -55,7 +59,7 @@ Choice: Option 3
 Rationale: Initially option one seemed the best of the three. Featuring specifically UV light sensitivity, which is exactly what we need, as wella s a low unit price it seemed like a clear winner. Unfortunately (or rather fortunately) we noticed it needed to be bought at large bulk, putting it out of our price range despite its ideal specifications. The third choice, while having the highest unit price and being primarily an IR proximity sensor, it also features a UV index sensor that would work well with our project. Additionally, it is much easier to use and readily accessible for outdoor use than option 2 which optimized for indoor use by default. 
 
 -----------------
-# Humidity Sensor
+## Humidity Sensor
 
 | Option 1 | Pros          | Cons          |
 | -------- | ------------- | ------------- |
@@ -80,7 +84,7 @@ Choice: Option 3
 Rationale: The humanity sensor "SHT45-AD1B-R2" has a high resolution of 0.01% RH and 0.01°C, and a low power consumption of 0.4 µW at 1 measurement per second. It also has a fast response time of less than 1 second, and a long-term stability of less than 0.25% RH per year. Compared to other sensors of the same size, the "SHT45-AD1B-R2" offers better performance, reliability, and flexibility for different use cases.
 
 ----------------------
-# Motor Driver
+## Motor Driver
 
 | Option 1 | Pros          | Cons          |
 | -------- | ------------- | ------------- |
@@ -108,7 +112,7 @@ Choice: Option 1
 Rationale: IFX9201SGAUMA1 features some useful safety and utility specifications while still being at a very competitive price. Features such as the short circuit shutdown, allowing for more electrical safety for the device, high reliability, and low standby current for power conservation can be very useful. Additionally the product uses SPI communication to meet the requirements of the project.
 
 --------------------
-# Temperature Sensor
+## Temperature Sensor
 
 | Option 1 | Pros          | Cons          |
 | -------- | ------------- | ------------- |
@@ -133,7 +137,7 @@ Choice: Option 3
 Rationale: The temperature sensor MCP9700T-E/TT can measure temperature from -40°C to +125°C with an accuracy of ±4°C. It has a low operating current of 6µA and a low supply voltage of 2.3V to 5.5V which is perfect for our project. The output voltage of the sensor is directly proportional to the measured temperature, with a slope of 10mV/°C and an offset of 500mV. This makes it easy to interface with analog-to-digital converters or microcontrollers. 
 
 --------------
-# Motor
+## Motor
 
 | Option 1 | Pros          | Cons          |
 | -------- | ------------- | ------------- |
@@ -158,7 +162,7 @@ Choice: Option 2
 Rationale: This motor is most ideal for our project because it has a full metal gearbox that provides high torque and durability. It also has a low noise level and a long service life which is needed for being close to ears. The 3mm shaft is great and also its ability to move smoothly and accurately.
 
 --------------
-# OpAmp
+## OpAmp
 
 | Option 1 | Pros          | Cons          |
 | -------- | ------------- | ------------- |
