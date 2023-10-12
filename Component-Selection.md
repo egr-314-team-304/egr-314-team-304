@@ -98,6 +98,11 @@ Rationale: The humanity sensor "SHT45-AD1B-R2" has a high resolution of 0.01% RH
 | TB67H451FNG,EL $1.50 | - Cheap | - Half bridge drivers |
 | [Link](https://www.digikey.com/en/products/detail/toshiba-semiconductor-and-storage/TB67H451FNG-EL/11568781) |  |  |
 --------------
+Choice: Option 1
+-
+Rationale: IFX9201SGAUMA1 features some useful safety and utility specifications while still being at a very competitive price. Features such as the short circuit shutdown, allowing for more electrical safety for the device, high reliability, and low standby current for power conservation can be very useful. Additionally the product uses SPI communication to meet the requirements of the project.
+
+--------------------
 # Temperature Sensor
 
 | Option 1 | Pros          | Cons          |
