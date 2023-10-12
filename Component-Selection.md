@@ -132,38 +132,47 @@ Rationale: The temperature sensor MCP9700T-E/TT can measure temperature from -40
 
 | Option 1 | Pros          | Cons          |
 | -------- | ------------- | ------------- |
-| ![](Images/LS3.png) | -  | -  |
-|  | -  |  |
-| [Link]() | -  | -  |
+| ![](Images/M1.png) | - Gear system allows for good torque despite the small size | - Rated for 6V while most of our components are rated for a top range of 5-5.5V |
+| COM0802 $8.50 |  |  |
+| [Link](https://www.digikey.com/en/products/detail/dfrobot/FIT0578/9490123) |  |  |
 
 | Option 2 | Pros          | Cons          |
 | -------- | ------------- | ------------- |
-| ![](Images/LS3.png) | -  | -  |
-|  | -  |  |
-| [Link]() | -  | -  |
+| ![](Images/M2.png) | - Easy to work with/easy communication | - Couldn't find on DigiKey |
+| SKU:FIT048 7.99$ | - Part half of a team is working with in 455 |  |
+| [Link](https://www.amazon.com/150RPM-Reduction-Gearbox-GA12-N20-Models/dp/B0BFQXFNTK/ref=asc_df_B0BFQXFNTK?tag=bingshoppinga-20&linkCode=df0&hvadid=80333201323909&hvnetw=o&hvqmt=e&hvbmt=be&hvdev=c&hvlocint=&hvlocphy=&hvtargid=pla-4583932720567818&th=1) | -  | -  |
 
 | Option 3 | Pros          | Cons          |
 | -------- | ------------- | ------------- |
-| ![](Images/LS3.png) | -  | -  |
-|  | -  |  |
-| [Link]() | -  | -  |
+| ![](Images/M3.png) | - Easy to work with/easy communication | - Have to buy a pack of 5 |
+| 28BYJ-48 ULN2003 5 pack: 14.99$ | - Part half of a team is working with in 455 | - Couldn’t find on DigiKey |
+| [Link](https://www.amazon.com/ELEGOO-28BYJ-48-ULN2003-Stepper-Arduino/dp/B01CP18J4A/ref=asc_df_B01CP18J4A?tag=bingshoppinga-20&linkCode=df0&hvadid=79852084167122&hvnetw=o&hvqmt=e&hvbmt=be&hvdev=c&hvlocint=&hvlocphy=&hvtargid=pla-4583451663270158&psc=1) | - Great explanation online with a lot of helpful tips |  |
+--------------
+Choice: Option 2
+-
+Rationale: This motor is most ideal for our project because it has a full metal gearbox that provides high torque and durability. It also has a low noise level and a long service life which is needed for being close to ears. The 3mm shaft is great and also its ability to move smoothly and accurately.
+
 --------------
 # OpAmp
 
 | Option 1 | Pros          | Cons          |
 | -------- | ------------- | ------------- |
-| ![](Images/LS3.png) | -  | -  |
+| ![](Images/OA1.png) | -  | -  |
 |  | -  |  |
 | [Link]() | -  | -  |
 
 | Option 2 | Pros          | Cons          |
 | -------- | ------------- | ------------- |
-| ![](Images/LS3.png) | -  | -  |
+| ![](Images/OA2.png) | -  | -  |
 |  | -  |  |
 | [Link]() | -  | -  |
 
 | Option 3 | Pros          | Cons          |
 | -------- | ------------- | ------------- |
-| ![](Images/LS3.png) | -  | -  |
+| ![](Images/OA3.png) | -  | -  |
 |  | -  |  |
 | [Link]() | -  | -  |
+-------------
+Choice: Option 1 
+-
+Rationale: The LM324DR has a very competitive price along with simple usage that will allow us to build the project quickly and efficiently. The simple design of the product also allows for easy testing and debugging in the design as well. Finally, the LM324DR has the ability to amplify up to 4 different signals, allowing us to reduce the amounts of components needed to amplify all of our light sensor signal outputs.
