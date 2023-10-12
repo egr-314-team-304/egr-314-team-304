@@ -123,6 +123,11 @@ Rationale: IFX9201SGAUMA1 features some useful safety and utility specifications
 | MCP9700T-E/TT $0.30 | - Very cheap sensor | - Accuracy is not great at +/-2°C |
 | [Link](https://www.digikey.com/en/products/detail/microchip-technology/MCP9700T-E-TT/1212510) |  |  |
 --------------
+Choice: Option 3
+-
+Rationale: The temperature sensor MCP9700T-E/TT can measure temperature from -40°C to +125°C with an accuracy of ±4°C. It has a low operating current of 6µA and a low supply voltage of 2.3V to 5.5V which is perfect for our project. The output voltage of the sensor is directly proportional to the measured temperature, with a slope of 10mV/°C and an offset of 500mV. This makes it easy to interface with analog-to-digital converters or microcontrollers. 
+
+--------------
 # Motor
 
 | Option 1 | Pros          | Cons          |
