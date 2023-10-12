@@ -157,21 +157,21 @@ Rationale: This motor is most ideal for our project because it has a full metal 
 
 | Option 1 | Pros          | Cons          |
 | -------- | ------------- | ------------- |
-| ![](Images/OA1.png) | -  | -  |
-|  | -  |  |
-| [Link]() | -  | -  |
+| ![](Images/OA1.png) | - Inexpensive and simple use | - High current output |
+| LM324DR $0.37 | - Supply voltage 1.5V to 16V |  |
+| [Link](https://www.digikey.com/en/products/detail/texas-instruments/LM324DR/555719) |  |  |
 
 | Option 2 | Pros          | Cons          |
 | -------- | ------------- | ------------- |
-| ![](Images/OA2.png) | -  | -  |
-|  | -  |  |
-| [Link]() | -  | -  |
+| ![](Images/OA2.png) | - Easy to work with  | - 1.2MHz current |
+| TLV8802DGKT 1.22$ | - Operates with 0.7V - 5.5V  |  |
+| [Link](https://www.digikey.com/en/products/detail/texas-instruments/TLV8802DGKT/6204638) |    |  |
 
 | Option 3 | Pros          | Cons          |
 | -------- | ------------- | ------------- |
-| ![](Images/OA3.png) | -  | -  |
-|  | -  |  |
-| [Link]() | -  | -  |
+| ![](Images/OA3.png) | - Operates from 2.7V to 36V as well as 1.35V to 18V | - 6MHz current |
+| TSB511ILT 1.21$ | - Size |  |
+| [Link](https://www.digikey.com/en/products/detail/stmicroelectronics/TSB511ILT/16818509) |  |  |
 -------------
 Choice: Option 1 
 -
