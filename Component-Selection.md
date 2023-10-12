@@ -4,15 +4,21 @@
 
 | Solution | Pros          | Cons          |
 | -------- | ------------- | ------------- |
-| Example1 | - Relatively cheap compared to other 3.3V regulators.    | - Maximum Vin is 6V (5.5V recommended); the input of our power budget. No extra room.     |
-|          | - Small footprint on PCB so it is easier to fit with other components into smaller space.     | - Adjustable output voltage only goes from 1 to 3.3V so most of the range does not work for this project.    |
-|          | - Small footprint on PCB so it is easier to fit with other components into smaller space.     |    |
-| Example2 | - Higher voltage ceiling that can be stepped down.     | - Fixed output voltage which does not allow flexibility later on.     |
-|          | - Good switching frequency range using both Khz and Mhz ranges. Better on/off control.    | - Very large; utilizes more space and pads.    |
-|          |       |      |
-| Example3 | - Output voltage is adjustable from 3.3V to 20V in case the power rail needs editing later on.     | - Output current is limited to 500mA maximum with a 380mA recommended.    |
-|          | - Capable of both stepping-up and stepping-down the input voltage.     | - Far more expensive than most other 3.3V capable regulators.    |
-|          |      |     |
+| ![](Images/VR1.png) | - Relatively cheap compared to other 3.3V regulators.    | - Maximum Vin is 6V (5.5V recommended); the input of our power budget. No extra room.     |
+| SC189ZSKTRT - IC REG BUCK 3.3V 1.5A $1.20/ea Link | - Small footprint on PCB so it is easier to fit with other components into smaller space.     | - Adjustable output voltage only goes from 1 to 3.3V so most of the range does not work for this project.  |
+| [Link](https://www.digikey.com/en/products/detail/semtech-corporation/SC189ZSKTRT/2182360) | - Small footprint on PCB so it is easier to fit with other components into smaller space.     |    |
+
+| Solution | Pros          | Cons          |
+| -------- | ------------- | ------------- |
+| ![](Images/VR2.png) | - Higher voltage ceiling that can be stepped down.     | - Fixed output voltage which does not allow flexibility later on.     |
+| TLS4120D0EPV33XUMA1 - Switching Regulator IC 3.3V 2A $4.95/ea | - Good switching frequency range using both Khz and Mhz ranges. Better on/off control.    | - Very large; utilizes more space and pads.    |
+| [Link](https://www.digikey.com/en/products/detail/infineon-technologies/TLS4120D0EPV33XUMA1/12756107) |       |        |
+
+| Solution | Pros          | Cons          |
+| -------- | ------------- | ------------- |
+| ![](Images/VR3.png) | - Output voltage is adjustable from 3.3V to 20V in case the power rail needs editing later on.     | - Output current is limited to 500mA maximum with a 380mA recommended.    |
+| LT3433EFE#TRPBF - IC REG BCK BST ADJ 500MA $9.54/ea | - Capable of both stepping-up and stepping-down the input voltage.     | - Far more expensive than most other 3.3V capable regulators.    |
+| [Link](https://www.digikey.com/en/products/detail/analog-devices-inc/LT3433EFE-TRPBF/959580) |       |        |
 --------------
 Choice: Option 2
 -
