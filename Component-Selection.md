@@ -4,10 +4,10 @@
 - [Voltage Regulator](#voltage-regulator)
 - [UV Light Sensor](#uv-light-sensor)
 - [Humidity Sensor](#humidity-sensor)
-- [Motor Driver](motor-driver)
-- [Temperature Sensor](temperature-sensor)
-- [Motor](motor)
-- [OpAmp](opamp)
+- [Motor Driver](#motor-driver)
+- [Temperature Sensor](#temperature-sensor)
+- [Motor](#motor)
+- [OpAmp](#opamp)
 --------------
 ## Voltage Regulator
 
