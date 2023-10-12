@@ -79,15 +79,18 @@ Rationale: The humanity sensor "SHT45-AD1B-R2" has a high resolution of 0.01% RH
 
 | Option 1 | Pros          | Cons          |
 | -------- | ------------- | ------------- |
-| ![](Images/MD1.png) | - Pro 1.1     | - Con 1.1     |
-| [Link]() | - Pro 1.2     | - Con 1.2     |
-|          | - Pro 1.3     | - Con 1.3     |
+| ![](Images/MD1.png) | - Logic inputs 3.3 V and 5.0 V TTL/CMOS-compatible  | - Complicated to use |
+| IFX9201SGAUMA1 $3.79 | - Chopper current limitation  |  |
+|  | - Short circuit shut down with latch behavior  |  |
+|  | - Over Temperature shut down with latch behavior  |  |
+|  | - VS undervoltage shutdown  |  |
+| [Link](https://www.digikey.com/en/products/detail/infineon-technologies/IFX9201SGAUMA1/5415542) | - Open load detection in ON and OFF state |  |
 
 | Option 2 | Pros          | Cons          |
 | -------- | ------------- | ------------- |
-| ![](Images/MD2.png) | - Abnormality Detection Signal Output, low ON resistance and small package, contributing to high reliability, low power consumption and space saving of the set | - Expensive |
-| BD16912EFV-CE2 $6.30 |  |  |
-| [Link](https://www.digikey.com/en/products/detail/rohm-semiconductor/BD16912EFV-CE2/10495192) |  |  |
+| ![](Images/MD2.png) | - Abnormality Detection Signal Output contributing to high reliability | - Expensive |
+| BD16912EFV-CE2 $6.30 | - Low ON resistance and small package, |  |
+| [Link](https://www.digikey.com/en/products/detail/rohm-semiconductor/BD16912EFV-CE2/10495192) | - Low power consumption and space saving of the set  |  |
 
 | Option 3 | Pros          | Cons          |
 | -------- | ------------- | ------------- |
