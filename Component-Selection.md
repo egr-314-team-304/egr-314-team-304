@@ -1,6 +1,11 @@
 # Component Selection
 --------------
-# Voltage Regulator
+## Table of Contents
+- [Voltage Regulator](#voltage-regulator)
+- [UV Light Sensor](#uv-light-sensor)
+- 
+--------------
+## Voltage Regulator
 
 | Option 1 | Pros          | Cons          |
 | -------- | ------------- | ------------- |
@@ -25,7 +30,7 @@ Choice: Option 2
 Rationale: The second option provides a higher ceiling on the input voltage we can deliver if needed. While the fixed output voltage is not ideal, our current aim of 3.3V should be good to carry through the rest of the project for power needs. This also takes into account the max output current being the highest of the three at 2A. The cost is around the median for 3.3V regulators. The third option is great, but the cost just seems far too high with a low maximum current.
 
 --------------
-# UV Light Sensor
+## UV Light Sensor
 
 | Option 1 | Pros          | Cons          |
 | -------- | ------------- | ------------- |
