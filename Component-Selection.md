@@ -79,21 +79,21 @@ Rationale: The humanity sensor "SHT45-AD1B-R2" has a high resolution of 0.01% RH
 
 | Option 1 | Pros          | Cons          |
 | -------- | ------------- | ------------- |
-| ![](Images/LS3.png) | - Pro 1.1     | - Con 1.1     |
+| ![](Images/MD1.png) | - Pro 1.1     | - Con 1.1     |
 | [Link]() | - Pro 1.2     | - Con 1.2     |
 |          | - Pro 1.3     | - Con 1.3     |
 
 | Option 2 | Pros          | Cons          |
 | -------- | ------------- | ------------- |
-| ![](Images/LS3.png) | - Pro 2.1     | - Con 2.1     |
-| [Link]() | - Pro 2.2     | - Con 2.2     |
-|          | - Pro 2.3     | - Con 2.3     |
+| ![](Images/MD2.png) | - Abnormality Detection Signal Output, low ON resistance and small package, contributing to high reliability, low power consumption and space saving of the set | - Expensive |
+| BD16912EFV-CE2 $6.30 |  |  |
+| [Link](https://www.digikey.com/en/products/detail/rohm-semiconductor/BD16912EFV-CE2/10495192) |  |  |
 
 | Option 3 | Pros          | Cons          |
 | -------- | ------------- | ------------- |
-| ![](Images/LS3.png) | - Pro 3.1     | - Con 3.1     |
-| [Link]() | - Pro 3.2     | - Con 3.2     |
-|          | - Pro 3.3     | - Con 3.3     |
+| ![](Images/MD3.png) | - Simple layout     | - More efficient for brushed motors |
+| TB67H451FNG,EL $1.50 | - Cheap | - Half bridge drivers |
+| [Link](https://www.digikey.com/en/products/detail/toshiba-semiconductor-and-storage/TB67H451FNG-EL/11568781) |  |  |
 --------------
 # Temperature Sensor
 
