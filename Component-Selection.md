@@ -107,58 +107,58 @@ Rationale: IFX9201SGAUMA1 features some useful safety and utility specifications
 
 | Option 1 | Pros          | Cons          |
 | -------- | ------------- | ------------- |
-| ![](Images/LS3.png) | - Pro 1.1     | - Con 1.1     |
-| [Link]() | - Pro 1.2     | - Con 1.2     |
-|          | - Pro 1.3     | - Con 1.3     |
+| ![](Images/TS1.png) | - Programmable switch that operates when temperature passes a certain value makes it easy to choose a threshold heat value | - Needs E-96 series standard decade value resistors to program |
+| TMP392A2DRLR $1.16 | - Advertised as ultra low power consumption |  |
+| [Link](https://www.digikey.com/en/products/detail/texas-instruments/TMP392A2DRLR/11308866) |  |  |
 
 | Option 2 | Pros          | Cons          |
 | -------- | ------------- | ------------- |
-| ![](Images/LS3.png) | - Pro 2.1     | - Con 2.1     |
-| [Link]() | - Pro 2.2     | - Con 2.2     |
-|          | - Pro 2.3     | - Con 2.3     |
+| ![](Images/TS2.png) | - Surface mount | - Only 1 wire communication |
+| DS18B20U+ $6.79 | - addition pins for digital outputs | - only digital |
+| [Link](https://www.digikey.com/en/products/detail/analog-devices-inc-maxim-integrated/DS18B20U/1017603) | - set boundaries so it doesn't crash under intense heat | - more expensive |
 
 | Option 3 | Pros          | Cons          |
 | -------- | ------------- | ------------- |
-| ![](Images/LS3.png) | - Pro 3.1     | - Con 3.1     |
-| [Link]() | - Pro 3.2     | - Con 3.2     |
-|          | - Pro 3.3     | - Con 3.3     |
+| ![](Images/TS3.png) | - Utilizes only 3 pads to conserve PCB space | - Analog only. Useful for this project, but lesser product overall if more data is needed or ADC is not used |
+| MCP9700T-E/TT $0.30 | - Very cheap sensor | - Accuracy is not great at +/-2°C |
+| [Link](https://www.digikey.com/en/products/detail/microchip-technology/MCP9700T-E-TT/1212510) |  |  |
 --------------
 # Motor
 
 | Option 1 | Pros          | Cons          |
 | -------- | ------------- | ------------- |
-| ![](Images/LS3.png) | - Pro 1.1     | - Con 1.1     |
-| [Link]() | - Pro 1.2     | - Con 1.2     |
-|          | - Pro 1.3     | - Con 1.3     |
+| ![](Images/LS3.png) | -  | -  |
+|  | -  |  |
+| [Link]() | -  | -  |
 
 | Option 2 | Pros          | Cons          |
 | -------- | ------------- | ------------- |
-| ![](Images/LS3.png) | - Pro 2.1     | - Con 2.1     |
-| [Link]() | - Pro 2.2     | - Con 2.2     |
-|          | - Pro 2.3     | - Con 2.3     |
+| ![](Images/LS3.png) | -  | -  |
+|  | -  |  |
+| [Link]() | -  | -  |
 
 | Option 3 | Pros          | Cons          |
 | -------- | ------------- | ------------- |
-| ![](Images/LS3.png) | - Pro 3.1     | - Con 3.1     |
-| [Link]() | - Pro 3.2     | - Con 3.2     |
-|          | - Pro 3.3     | - Con 3.3     |
+| ![](Images/LS3.png) | -  | -  |
+|  | -  |  |
+| [Link]() | -  | -  |
 --------------
 # OpAmp
 
 | Option 1 | Pros          | Cons          |
 | -------- | ------------- | ------------- |
-| ![](Images/LS3.png) | - Pro 1.1     | - Con 1.1     |
-| [Link]() | - Pro 1.2     | - Con 1.2     |
-|          | - Pro 1.3     | - Con 1.3     |
+| ![](Images/LS3.png) | -  | -  |
+|  | -  |  |
+| [Link]() | -  | -  |
 
 | Option 2 | Pros          | Cons          |
 | -------- | ------------- | ------------- |
-| ![](Images/LS3.png) | - Pro 2.1     | - Con 2.1     |
-| [Link]() | - Pro 2.2     | - Con 2.2     |
-|          | - Pro 2.3     | - Con 2.3     |
+| ![](Images/LS3.png) | -  | -  |
+|  | -  |  |
+| [Link]() | -  | -  |
 
 | Option 3 | Pros          | Cons          |
 | -------- | ------------- | ------------- |
-| ![](Images/LS3.png) | - Pro 3.1     | - Con 3.1     |
-| [Link]() | - Pro 3.2     | - Con 3.2     |
-|          | - Pro 3.3     | - Con 3.3     |
+| ![](Images/LS3.png) | -  | -  |
+|  | -  |  |
+| [Link]() | -  | -  |
