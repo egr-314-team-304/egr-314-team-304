@@ -13,7 +13,9 @@
 
 ## ASU, EGR 314, Dr. Kevin Nichols
 
-## Navigation
+# Navigation
+-------------
+## Checkpoint 1
 - [Team Organization](team-organization.md)
 - [User Needs and Benchmarking](user-needs-benchmarking.md)
 - [Design Ideations](design-ideation.md)
@@ -21,3 +23,11 @@
 - [Team Checkpoint](checkpoint-1.md)
 - [PIC Code](pic.md)
 - [ESP32 Code](esp32.md)
+-------------
+## Checkpoint 2
+- [Design Selection](design-selection.md)
+- [Block Diagram](Block-Diagram.md)
+- [Component Selection](Component-Selection.md)
+- [Microcontroller Selection](Microcontroller-Selection.md)
+- [Hardware Proposal](Hardware-Proposal.md)
+- [Software Proposal](Software-Proposal.md)
