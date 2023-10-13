@@ -28,6 +28,7 @@
 | ![](Images/VR3.png) | - Output voltage is adjustable from 3.3V to 20V in case the power rail needs editing later on.     | - Output current is limited to 500mA maximum with a 380mA recommended.    |
 | LT3433EFE#TRPBF - IC REG BCK BST ADJ 500MA $9.54/ea | - Capable of both stepping-up and stepping-down the input voltage.     | - Far more expensive than most other 3.3V capable regulators.    |
 | [Link](https://www.digikey.com/en/products/detail/analog-devices-inc/LT3433EFE-TRPBF/959580) |       |        |
+
 --------------
 Choice: Option 2
 -
@@ -53,6 +54,7 @@ Rationale: The second option provides a higher ceiling on the input voltage we c
 | ![](Images/LS3.png) | - Has multifunctionlity adn is programmable for easier use     | - Higher cost than our usual light sensor     |
 | SI1146-M01-GMR $4.43 | - Low power necessities     | - Has a limited range     |
 | [Link](https://www.digikey.com/en/products/detail/silicon-labs/SI1146-M01-GMR/5271747) | - Works with our programs we want to use for our system     | - Needs calibration in orde to operate correctly     |
+
 --------------
 Choice: Option 3
 -
@@ -78,6 +80,7 @@ Rationale: Initially option one seemed the best of the three. Featuring specific
 | ![](Images/HS3.png) | - Simple to understand     | - A 2mmx2mm dimension makes it harder for us to install and make sure it works properly     |
 | 1649-SHT45-AD1B-R2TR-ND $7.18 | - Only one output pin     | - More expensive. Considering we will need to by multiple in case some get lost or damaged due to their small size     |
 | [Link](https://www.digikey.com/en/products/detail/sensirion-ag/SHT45-AD1B-R2/16360966) | - Given PCB build     | - Has a limited range     |
+
 --------------
 Choice: Option 3
 -
@@ -106,6 +109,7 @@ Rationale: The humanity sensor "SHT45-AD1B-R2" has a high resolution of 0.01% RH
 | ![](Images/MD3.png) | - Simple layout     | - More efficient for brushed motors |
 | TB67H451FNG,EL $1.50 | - Cheap | - Half bridge drivers |
 | [Link](https://www.digikey.com/en/products/detail/toshiba-semiconductor-and-storage/TB67H451FNG-EL/11568781) |  |  |
+
 --------------
 Choice: Option 1
 -
@@ -131,6 +135,7 @@ Rationale: IFX9201SGAUMA1 features some useful safety and utility specifications
 | ![](Images/TS3.png) | - Utilizes only 3 pads to conserve PCB space | - Analog only. Useful for this project, but lesser product overall if more data is needed or ADC is not used |
 | MCP9700T-E/TT $0.30 | - Very cheap sensor | - Accuracy is not great at +/-2°C |
 | [Link](https://www.digikey.com/en/products/detail/microchip-technology/MCP9700T-E-TT/1212510) |  |  |
+
 --------------
 Choice: Option 3
 -
@@ -156,6 +161,7 @@ Rationale: The temperature sensor MCP9700T-E/TT can measure temperature from -40
 | ![](Images/M3.png) | - Easy to work with/easy communication | - Have to buy a pack of 5 |
 | 28BYJ-48 ULN2003 5 pack: 14.99$ | - Part half of a team is working with in 455 | - Couldn’t find on DigiKey |
 | [Link](https://www.amazon.com/ELEGOO-28BYJ-48-ULN2003-Stepper-Arduino/dp/B01CP18J4A/ref=asc_df_B01CP18J4A?tag=bingshoppinga-20&linkCode=df0&hvadid=79852084167122&hvnetw=o&hvqmt=e&hvbmt=be&hvdev=c&hvlocint=&hvlocphy=&hvtargid=pla-4583451663270158&psc=1) | - Great explanation online with a lot of helpful tips |  |
+
 --------------
 Choice: Option 2
 -
@@ -181,6 +187,7 @@ Rationale: This motor is most ideal for our project because it has a full metal 
 | ![](Images/OA3.png) | - Operates from 2.7V to 36V as well as 1.35V to 18V | - 6MHz current |
 | TSB511ILT 1.21$ | - Size |  |
 | [Link](https://www.digikey.com/en/products/detail/stmicroelectronics/TSB511ILT/16818509) |  |  |
+
 -------------
 Choice: Option 1 
 -
