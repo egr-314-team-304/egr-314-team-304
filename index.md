@@ -23,7 +23,7 @@
 - [Team Checkpoint](checkpoint-1.md)
 - [PIC Code](pic.md)
 - [ESP32 Code](esp32.md)
-- 
+
 -------------
 ## Checkpoint 2
 - [Design Selection](Design-Selection.md)
