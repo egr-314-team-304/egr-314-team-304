@@ -1,4 +1,4 @@
 # Design Selection
 
-![Concept 1 Image](Images/HAT_vector_drawings.pdf)
+![Concept 1 Image](Images/HAT_vector_drawings.png)
 
