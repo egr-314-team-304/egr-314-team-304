@@ -1,1 +1,4 @@
-![Concept 1 Image](software_proposal.png)
+# Software Proposal
+------------------
+
+![Concept 1 Image](Images/software_proposal.png)
