@@ -149,7 +149,7 @@ Rationale: The temperature sensor MCP9700T-E/TT can measure temperature from -40
 | -------- | ------------- | ------------- |
 | ![](Images/M2.png) | - Easy to work with/easy communication | - Couldn't find on DigiKey |
 | SKU:FIT048 7.99$ | - Part half of a team is working with in 455 |  |
-| [Link](https://www.amazon.com/150RPM-Reduction-Gearbox-GA12-N20-Models/dp/B0BFQXFNTK/ref=asc_df_B0BFQXFNTK?tag=bingshoppinga-20&linkCode=df0&hvadid=80333201323909&hvnetw=o&hvqmt=e&hvbmt=be&hvdev=c&hvlocint=&hvlocphy=&hvtargid=pla-4583932720567818&th=1) | -  | -  |
+| [Link](https://www.amazon.com/150RPM-Reduction-Gearbox-GA12-N20-Models/dp/B0BFQXFNTK/ref=asc_df_B0BFQXFNTK?tag=bingshoppinga-20&linkCode=df0&hvadid=80333201323909&hvnetw=o&hvqmt=e&hvbmt=be&hvdev=c&hvlocint=&hvlocphy=&hvtargid=pla-4583932720567818&th=1) |  |  |
 
 | Option 3 | Pros          | Cons          |
 | -------- | ------------- | ------------- |
