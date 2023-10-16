@@ -71,4 +71,6 @@
 
 ## Final Microcontroller Choice: PIC32MX250F128B
 
-Rationale: The choice was mostly between the first and second options as they both had two I2C and two SPI so there is wiggle room. The second option had more available I/O pins though and it had PWM controllers just in case this comes up as something we absolutely have to use for the motor in the future. The cost was slightly higher than option 1, but not enough to outweigh the positives. The third option is more of a bare-minimum for use. The greatest strengths to it are the larger voltage range and cheaper cost. However, only having one I2C and one SPI connection makes future-proofing more difficult.
+Rationale: The choice was mostly between the first and second options as they both had two I2C and two SPI so there is wiggle room. The second option had more available I/O pins though and it had PWM controllers just in case this comes up as something we absolutely have to use for the motor in the future. The cost was slightly higher than option 1, but not enough to outweigh the positives. The third option is more of a bare minimum for use. Its greatest strengths to it are the larger voltage range and cheaper cost. However, only having one I2C and one SPI connection makes future-proofing more difficult.
+
+[Home Page](index.md)
