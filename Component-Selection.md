@@ -8,7 +8,7 @@
 - [Temperature Sensor](#temperature-sensor)
 - [Motor](#motor)
 - [OpAmp](#opamp)
-
+- [Home Page](index.md)
 --------------
 ## Voltage Regulator
 
