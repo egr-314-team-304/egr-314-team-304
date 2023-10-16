@@ -193,3 +193,5 @@ Rationale: This motor is most ideal for our project because it has a full metal 
 Choice: Option 1 
 -
 Rationale: The LM324DR has a very competitive price along with simple usage that will allow us to build the project quickly and efficiently. The simple design of the product also allows for easy testing and debugging in the design as well. Finally, the LM324DR has the ability to amplify up to 4 different signals, allowing us to reduce the amounts of components needed to amplify all of our light sensor signal outputs.
+
+[Return to the top](#table-of-contents)
