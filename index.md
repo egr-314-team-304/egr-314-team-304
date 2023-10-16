@@ -29,6 +29,7 @@
 - [Design Selection](Design-Selection.md)
 - [Block Diagram](Block-Diagram.md)
 - [Component Selection](Component-Selection.md)
+- [Power Budget](Power-Budget.md)
 - [Microcontroller Selection](Microcontroller-Selection.md)
 - [Hardware Proposal](Hardware-Proposal.md)
 - [Software Proposal](Software-Proposal.md)
