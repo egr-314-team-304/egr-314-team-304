@@ -11,7 +11,7 @@
 
 ## Preparation Date: 10/16/2023
 
-## ASU, EGR 314, Dr. Kevin Nichols
+## ASU, EGR 314, Kevin Nichols
 
 # Navigation
 -------------
