@@ -54,6 +54,8 @@ Our team is designing a smart hat with temperature and light sensors to monitor 
 ## [Block Diagram](Block-Diagram.md)
 Summary for block diagram
 
+![Image](Images/BlockDiagram.png)
+
 ---
 
 ## [Component Selection](Component-Selection.md)
