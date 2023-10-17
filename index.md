@@ -43,6 +43,7 @@ After our design ideation and choosing an idea concept we were happy with, we se
 ---
 
 ## [Design Ideations](design-ideation.md)
+After our insightful brainstorming session, our team embarked on a journey to amalgamate our collective ideas and channel them into innovative project concepts. We meticulously synthesized the various suggestions and insights from the brainstorming, resulting in the formulation of three distinct and cohesive product designs. Each design reflects our team's commitment to innovation and our aim to meet the envisioned objectives.
 
 ----
 
