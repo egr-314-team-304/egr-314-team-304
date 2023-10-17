@@ -32,7 +32,7 @@ life by making technology both adaptive and user-friendly. We are committed to r
 
 ---
 
-# Checkpoint 1
+
 ## [Team Organization](team-organization.md)
 
 ---
