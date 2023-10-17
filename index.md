@@ -93,7 +93,7 @@ Similarly to the component selection, our team set out to find multiple microcon
 ---
 
 ## [Hardware Proposal](Hardware-Proposal.md)
-summary
+Once our components and microcontrollers had been selected, we needed to put them all together. First, each team member created a design for an individual subsystem. These subsystems consisted of the motor controller, the power regulator, and the light, temperature, and humidity sensors. From there, all the subsystems needed to be put together into a single schematic. Some of the issues that arose were figuring out how to connect all the components to the single microcontroller. One solution to use less pins was to connect the lght sensor and temperature sensor to the same I2C pins and using different addresses as a way to seperate their communications. Finishing the hardware proposal was an important milestone in creating our final product, as it creates the bluprint for the physical PCB and component connections. 
 
 ---
 
