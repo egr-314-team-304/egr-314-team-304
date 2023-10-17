@@ -77,7 +77,8 @@ Summary for block diagram
 ---
 
 ## [Component Selection](Component-Selection.md)
-Summary for component selection
+
+Once we had a good idea of what we had in mind for our project design, we set out to choose the components that would allow us to build our vision. To do so, we listed out the major components that would be needed this included the voltage regulator, UV light sensor, humidity sensor, motor driver, temperature sensor,and the motor. To better ensure we had a good selection of each component, we set out to find at least three candidates for each component. This would allow us to compare different choices and component properties to find what best fit our needs, rather then choosing a component and trying to fit our porject around it. 
 
 ---
 
