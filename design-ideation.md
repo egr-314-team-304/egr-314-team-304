@@ -1,7 +1,6 @@
 # Cool Cap Project
 
 ## Ideation Concepts
-After our brainstorming session, our team set out to create some different project concepts. Putting together the brainstormed ideas into more cohesive product ideas, our team came up with three designs. 
 
 ### Concept 1: Humidity/Light Flower Helper
 
