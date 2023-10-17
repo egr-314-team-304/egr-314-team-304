@@ -88,7 +88,7 @@ summary
 ---
 
 ## [Microcontroller Selection](Microcontroller-Selection.md)
-Similarly to the component selection, for the microcontroller selection our team set out to choose multiple microcontrollers. This would ensure we had a variety of different features to compare and contrast to find what best fit our project design.
+Similarly to the component selection, our team set out to find multiple microcontroller candidates. This would promote flexibility and consideration in our design. By comparing and contrasting the each microcontrollers' attributes, we could better identify which microcontroller best fits the needs and specifications of our project design.
 
 ---
 
