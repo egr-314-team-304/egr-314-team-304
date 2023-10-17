@@ -99,4 +99,4 @@ Once our components and microcontrollers had been selected, we needed to put the
 ---
 
 ## [Software Proposal](Software-Proposal.md)
-summary
+Once we have decided all of the physical components of our design and have a good idea of how they fit together, we were ready to start thinking of how they work together. While we still didn't have physical hardware to code yet, a software proposal is useful for envisioning how all the components being designed would work together logically. Additionally, a good software proposal is a good foundation for the code when it is time to start developing it. 
