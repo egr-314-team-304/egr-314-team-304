@@ -33,7 +33,7 @@ life by making technology both adaptive and user-friendly. We are committed to r
 ---
 
 # Checkpoint 1
-- [Team Organization](team-organization.md)
+## [Team Organization](team-organization.md)
 
 ---
 
@@ -42,11 +42,23 @@ After our design ideation and choosing an idea concept we were happy with, we se
 
 ---
 
-- [Design Ideations](design-ideation.md)
-- [Presentation 1](presentation-1.md)
-- [Team Checkpoint](checkpoint-1.md)
-- [PIC Code](pic.md)
-- [ESP32 Code](esp32.md)
+## [Design Ideations](design-ideation.md)
+
+----
+
+## [Presentation 1](presentation-1.md)
+
+----
+
+## [Team Checkpoint](checkpoint-1.md)
+
+----
+
+## [PIC Code](pic.md)
+
+----
+
+## [ESP32 Code](esp32.md)
 
 -------------
 # Checkpoint 2
