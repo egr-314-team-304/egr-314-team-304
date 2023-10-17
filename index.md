@@ -32,11 +32,16 @@ life by making technology both adaptive and user-friendly. We are committed to r
 
 ---
 
-# Navigation
--------------
-## Checkpoint 1
+# Checkpoint 1
 - [Team Organization](team-organization.md)
-- [User Needs and Benchmarking](user-needs-benchmarking.md)
+
+---
+
+## [User Needs and Benchmarking](user-needs-benchmarking.md)
+After our design ideation and choosing an idea concept we were happy with, we set out to benchmark similar ideas that were out in the market, as well as to observe the complaints and positive feedback these ideas received. This was useful, as it gave us insight into what worked well and was well received, as well as giving us foresight on what could go wrong with our design and mistakes to avoid in our product design.
+
+---
+
 - [Design Ideations](design-ideation.md)
 - [Presentation 1](presentation-1.md)
 - [Team Checkpoint](checkpoint-1.md)
@@ -44,7 +49,7 @@ life by making technology both adaptive and user-friendly. We are committed to r
 - [ESP32 Code](esp32.md)
 
 -------------
-## Checkpoint 2
+# Checkpoint 2
 
 ## [Design Selection](Design-Selection.md)
 Our team is designing a smart hat with temperature and light sensors to monitor its internal environment. If the temperature goes beyond a set limit, an integrated fan turns on for cooling. The hat's brim also rotates to shield the wearer from direct sunlight, regardless of the sun's position. This tech-infused hat ensures optimal comfort and adaptability for outdoor activities.
