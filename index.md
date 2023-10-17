@@ -49,9 +49,32 @@ life by making technology both adaptive and user-friendly. We are committed to r
 ## [Design Selection](Design-Selection.md)
 Our team is designing a smart hat with temperature and light sensors to monitor its internal environment. If the temperature goes beyond a set limit, an integrated fan turns on for cooling. The hat's brim also rotates to shield the wearer from direct sunlight, regardless of the sun's position. This tech-infused hat ensures optimal comfort and adaptability for outdoor activities.
 
-- [Block Diagram](Block-Diagram.md)
-- [Component Selection](Component-Selection.md)
-- [Power Budget](Power-Budget.md)
-- [Microcontroller Selection](Microcontroller-Selection.md)
-- [Hardware Proposal](Hardware-Proposal.md)
-- [Software Proposal](Software-Proposal.md)
+----
+
+## [Block Diagram](Block-Diagram.md)
+Summary for block diagram
+
+---
+
+## [Component Selection](Component-Selection.md)
+Summary for component selection
+
+---
+
+## [Power Budget](Power-Budget.md)
+summary
+
+---
+
+## [Microcontroller Selection](Microcontroller-Selection.md)
+summary
+
+---
+
+## [Hardware Proposal](Hardware-Proposal.md)
+summary
+
+---
+
+## [Software Proposal](Software-Proposal.md)
+summary
