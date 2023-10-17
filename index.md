@@ -69,7 +69,8 @@ Our team is designing a smart hat with temperature and light sensors to monitor 
 ----
 
 ## [Block Diagram](Block-Diagram.md)
-Summary for block diagram
+
+The block diagram explains how the PCB will function with all the components at a hardware scale. The diagram explains that the board will be supplied with 12V, but the regulator reduces it to 3.3V for operation. The light, temperature, and humidity sensors will communicate through I2C (two components will be using the same I2C pin for communication without interference), while the motor driver runs on SPI. The user can see the data through an OLED Display and through a device via WiFi on the ESP32 module. 
 
 ![Image](Images/BlockDiagram.png)
 
