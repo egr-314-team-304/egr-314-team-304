@@ -88,7 +88,7 @@ summary
 ---
 
 ## [Microcontroller Selection](Microcontroller-Selection.md)
-summary
+Similarly to the component selection, for the microcontroller selection our team set out to choose multiple microcontrollers. This would ensure we had a variety of different features to compare and contrast to find what best fit our project design.
 
 ---
 
