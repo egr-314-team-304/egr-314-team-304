@@ -28,6 +28,7 @@ Our group set out to consider what benefits we hoped to find through the creatio
 - Demonstrating a neat project to friends and family.
 - Expanding our project resume with an interesting design that conveys what we learned throughout the course.
 - Gaining more confidence and familiarity with electrical systems, in general, to give us a higher repertoire of skills when handling future electrical system tasks.
+
 ---
 
 
