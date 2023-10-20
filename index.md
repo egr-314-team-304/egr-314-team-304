@@ -34,6 +34,7 @@ Our group set out to consider what benefits we hoped to find through the creatio
 
 
 ## [Team Organization](team-organization.md)
+Team communication and synergy, as well as a consistant working schedual are vital components to creating a succesful project. To ensure we could acheive these provisions we set out to find what times we could all meet up to schedual meetings, and established our main modes of team communication. 
 
 ---
 
