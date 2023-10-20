@@ -90,6 +90,8 @@ The power budget is an important detail in the design process. It is designed to
 
 ## [Microcontroller Selection](Microcontroller-Selection.md)
 Similarly to the component selection, our team set out to find multiple microcontroller candidates. This would promote flexibility and consideration in our design. By comparing and contrasting each microcontroller's attributes, we could better identify which microcontroller best fits the needs and specifications of our project design.
+![Image](Images/PIC32MX.png)
+After considering our choices, we went for the PIC32MX250F128B. 
 
 ---
 
