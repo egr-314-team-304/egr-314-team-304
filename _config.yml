@@ -11,3 +11,9 @@ plugins:
   - jekyll-seo-tag
 
 # Additional Midnight Jekyll theme specific configurations can be added here
+
+# Other configurations...
+
+collections:
+  images:
+    output: true
