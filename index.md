@@ -118,7 +118,6 @@ Once we had a good idea of what we had in mind for our project design, we set ou
 | Motor Driver        | ![Motor Driver](Images/MD1.png)                              | - Logic inputs 3.3 V and 5.0 V TTL/CMOS-compatible.<br>- Chopper current limitation.<br>- Short circuit shut down with latch behavior.<br>- Over Temperature shut down with latch behavior.<br>- VS undervoltage shutdown.<br>- Open load detection in ON and OFF state. |
 | Temperature Sensor  | ![Temperature Sensor](Images/TS3.png)                        | - Utilizes only 3 pads to conserve PCB space. |
 | Motor               | ![Motor](Images/M2.png)                                      | - Easy to work with/easy communication.<br>- Part half of a team is working with in 455. |
-| OpAmp               | ![OpAmp](Images/OA1.png)                                     | - Inexpensive and simple use.<br>- Supply voltage 1.5V to 16V. |
 
 ---
 
@@ -234,15 +233,4 @@ For final demonstration the voltage regulator would not output any desired volta
 | COM0802 $8.50 |  |  |
 | [Link](https://www.digikey.com/en/products/detail/dfrobot/FIT0578/9490123) |  |  |
 
-| OpAmp | Pros          | Cons          |
-| -------- | ------------- | ------------- |
-| ![](Images/OA2.png) | - Easy to work with  | - 1.2MHz current |
-| TLV8802DGKT 1.22$ | - Operates with 0.7V - 5.5V  |  |
-| [Link](https://www.digikey.com/en/products/detail/texas-instruments/TLV8802DGKT/6204638) |    |  |
-
-| OpAmp | Pros          | Cons          |
-| -------- | ------------- | ------------- |
-| ![](Images/OA3.png) | - Operates from 2.7V to 36V as well as 1.35V to 18V | - 6MHz current |
-| TSB511ILT 1.21$ | - Size |  |
-| [Link](https://www.digikey.com/en/products/detail/stmicroelectronics/TSB511ILT/16818509) |  |  |
 
