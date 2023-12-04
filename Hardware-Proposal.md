@@ -1,4 +1,4 @@
-# Hardware Proposal
+# Final Hardware Implementation
 
 ## Schematic 
 ![Final Schematic](Images/team-design.png)
