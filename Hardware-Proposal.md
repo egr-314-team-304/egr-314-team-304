@@ -10,7 +10,9 @@ Our hardware design utalizes the PIC3232MX250F128B to control and collect data f
 ## PCB
 ![Final PCB](Images/team-pcb.png)
 
-An overview of our finalized PCB. This is the only image available due to export license issues in Cadence.
+An overview of our finalized PCB. This is the only image available due to export license issues in Cadence. Two images of the final printed version below.
+![PCB Front](Images/pcb-front.jpg)
+![PCB Back](Images/pcb-back.jpg)
 
 
 ## Bill of Materials
