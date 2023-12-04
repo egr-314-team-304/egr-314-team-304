@@ -80,7 +80,7 @@ Restated User Needs:<br>
 
 Negative Comments<br>
 Voice of the Customer<br>
-"Looks worse in person than in the picture. My average (7 1/2 hat size) head swims in this so the brim blocks my visitor. The fans don’t really cool the head/face.
+"Looks worse in person than in the picture. My average (7 1/2 hat size) head swims in this so the brim blocks my visitor. The fans don’t cool the head/face.
 Blocks view and don't look good."<br>
 <br>
 
@@ -148,7 +148,7 @@ Key Words: “Solar Powered Headlamp Hat”<br>
 
 Price: $39.99<br>
 Vendor: Tractor Supply Co.<br>
-Description:  Powercap 4-LED Camo/Blaze Ultra-Bright Hands-Free Battery-Powered Headlamp Cap
+Description:  Power cap 4-LED Camo/Blaze Ultra-Bright Hands-Free Battery-Powered Headlamp Cap
 
 
 Positive Comments:<br>
@@ -175,7 +175,7 @@ Restated User Needs:<br>
 
 + Too little of lights (Explicit)<br>
 
-+ Well made and long-lasting (Explicit)<br>
++ Well-made and long-lasting (Explicit)<br>
 
 + Needs to be properly functional (Latent)<br>
 <br>          
