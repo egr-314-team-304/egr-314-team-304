@@ -159,6 +159,7 @@ For the final demonstration, the voltage regulator would not output any desired 
 ---
 
 ## Future Recommendations
+
 One recommendation we have for future students is to really pay attention to the pad/lead sizes for components as one of our sensors was tiny and trying to work on it was difficult until we used a hot plate.
 
 When choosing a pic devices, stick with a 16 bit device as it is what is most covered in the ICCs and the course. Avoid using 32 bit pics as they need an extra exstension, MCC Harmony to code properly, which is different from what we learned in class and can make programming the pic more difficult. When choosing a pic most microchip pics will have their bit type designated by a number in the name. For example, the pic32mx250f128b is 32 bit (pic32), while the pic16f17176 is 16 bit (pic16).
