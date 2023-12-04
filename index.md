@@ -37,9 +37,9 @@
 ---
 
 ## Introduction
-Our team was tasked with creating a device that uses multiple serial communication sensors and an actuator to respond to it's environment and complete a task. The device should also feature wifi connectivity to broadcast data through an MQTT protocal. Furthermore, due to the size of the group involved there needs to be a total of four subsystems involved in the final product.
+Our team was tasked with creating a device that uses multiple serial communication sensors and an actuator to respond to its environment and complete a task. The device should also feature wifi connectivity to broadcast data through an MQTT protocol. Furthermore, due to the size of the group involved there needs to be a total of four subsystems involved in the final product.
 
-The purposes of this report are to showcase the finalized ideas, iterations, and implementations of our group project to create an embedded system that could rotate a hat when sensing light from a certain direction. The hat would also utilize fans to help cool the user wearing it when specific temperature and/or humidity thresholds were reached. While working on the project the scope required for all of this needed to be brought down. Eventually the idea of light from multiple directions became too complicated and required too many individual sensors. This was reduced down to one and would move the hat to one of two locations based on how much light it detected. The fans were also removed during the process due to cost limitations. Ultimately, there were various issues that happened which prevented a fully-functioning prototype, but the lessons learned from it  all made for good experience for the future.
+The purpose of this report is to showcase the finalized ideas, iterations, and implementations of our group project to create an embedded system that could rotate a hat when sensing light from a certain direction. The hat would also utilize fans to help cool the user wearing it when specific temperature and/or humidity thresholds were reached. While working on the project the scope required for all of this needed to be brought down. Eventually, the idea of light from multiple directions became too complicated and required too many individual sensors. This was reduced down to one and would move the hat to one of two locations based on how much light it detected. The fans were also removed during the process due to cost limitations. Ultimately, various issues happened that prevented a fully functioning prototype, but the lessons learned from it  all made for a good experience for the future.
 
 When going through this report please feel free to click the hyperlinks embedded into some of the headlines for more detailed information. The following are shortened for ease of use.
 
@@ -48,13 +48,13 @@ When going through this report please feel free to click the hyperlinks embedded
 ## Mission Statement
 When starting this project, our team came up with a simple and concise mission statement.
 
-__Our goal is to create a device that utalizes multiple unique sensors to take input from its environment 
+__Our goal is to create a device that utilizes multiple unique sensors to take input from its environment 
 to perform a meaningful or beneficial task.__
 
 
 ---
 ## Team Charter
-Our group set out to consider what benefits we hoped to find through the creation of a succesful project.  we thought of how a succesful design and implementation could benefit us personally, more then just the scope of the class. This would be the foundation of our team charter, a set of common goals for our team to allign with and strive for. 
+Our group set out to consider what benefits we hoped to find through the creation of a successful project.  we thought of how a successful design and implementation could benefit us personally, more then just the scope of the class. This would be the foundation of our team charter, a set of common goals for our team to align with and strive for. 
 - Gain more insight into creating electronic systems utilizing industry-level software such as Orcad Cadence, and MPlab.
 - Gaining more experience in the design and construction of different serial sensing and actuation circuits.
 - Demonstrating a neat project to friends and family.
