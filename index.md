@@ -13,6 +13,7 @@
 
 ## ASU, EGR 314, Kevin Nichols
 ## Table of Contents
+
 - [Introduction](#)
 - [Mission Statement](#Mission-Statement)
 - [Team Charter](#Team-Charter)
