@@ -94,6 +94,16 @@ The block diagram explains how the PCB will function with all the components at 
 
 Once we had a good idea of what we had in mind for our project design, we set out to choose the components that would allow us to build our vision. To do so, we listed out the major components that would be needed including the voltage regulator, UV light sensor, humidity sensor, motor driver, temperature sensor, and the motor. To better ensure we had a good selection of each component, we set out to find at least three candidates for each component. This would allow us to compare different choices and component properties to find what best fits our needs, rather than choosing a component and trying to fit our project around it. 
 
+| Component           | Image                                                        | Positive Aspects |
+|---------------------|--------------------------------------------------------------|------------------|
+| Voltage Regulator   | ![Voltage Regulator](Images/VR2.png)                         | - Higher voltage ceiling that can be stepped down.<br>- Good switching frequency range using both Khz and Mhz ranges. Better on/off control. |
+| UV Light Sensor     | ![UV Light Sensor](Images/LS3.png)                           | - Has multifunctionality and is programmable for easier use.<br>- Low power necessities.<br>- Works with our programs we want to use for our system. |
+| Humidity Sensor     | ![Humidity Sensor](Images/HS3.png)                           | - Simple to understand.<br>- Only one output pin.<br>- Given PCB build. |
+| Motor Driver        | ![Motor Driver](Images/MD1.png)                              | - Logic inputs 3.3 V and 5.0 V TTL/CMOS-compatible.<br>- Chopper current limitation.<br>- Short circuit shut down with latch behavior.<br>- Over Temperature shut down with latch behavior.<br>- VS undervoltage shutdown.<br>- Open load detection in ON and OFF state. |
+| Temperature Sensor  | ![Temperature Sensor](Images/TS3.png)                        | - Utilizes only 3 pads to conserve PCB space. |
+| Motor               | ![Motor](Images/M2.png)                                      | - Easy to work with/easy communication.<br>- Part half of a team is working with in 455. |
+| OpAmp               | ![OpAmp](Images/OA1.png)                                     | - Inexpensive and simple use.<br>- Supply voltage 1.5V to 16V. |
+
 ---
 
 ## [Power Budget](Power-Budget.md)
