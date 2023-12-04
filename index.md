@@ -158,6 +158,11 @@ For the final demonstration, the voltage regulator would not output any desired 
 
 ---
 
+## Future Recommendations
+One recommendation we have for future students is to really pay attention to the pad/lead sizes for components as one of our sensors was tiny and trying to work on it was difficult until we used a hot plate.
+
+---
+
 # Appendix
 
 ## [Presentation 1](presentation-1.md)
