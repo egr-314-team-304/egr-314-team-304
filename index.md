@@ -152,7 +152,6 @@ Once we have decided all of the physical components of our design and have a goo
 
 ## [Presentation 1](presentation-1.md)
 
-## [Team Checkpoint](checkpoint-1.md)
 
 ## Component Selection
 
