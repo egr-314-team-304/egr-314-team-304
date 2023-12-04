@@ -133,3 +133,90 @@ For final demonstration the voltage regulator would not output any desired volta
 ## [Presentation 1](presentation-1.md)
 
 ## [Team Checkpoint](checkpoint-1.md)
+
+## Component Selection
+
+| Voltage Regulator | Pros          | Cons          |
+| -------- | ------------- | ------------- |
+| ![](Images/VR1.png) | - Relatively cheap compared to other 3.3V regulators.    | - Maximum Vin is 6V (5.5V recommended); the input of our power budget. No extra room.     |
+| SC189ZSKTRT - IC REG BUCK 3.3V 1.5A $1.20/ea Link | - Small footprint on PCB so it is easier to fit with other components into smaller space.     | - Adjustable output voltage only goes from 1 to 3.3V so most of the range does not work for this project.  |
+| [Link](https://www.digikey.com/en/products/detail/semtech-corporation/SC189ZSKTRT/2182360) | - Small footprint on PCB so it is easier to fit with other components into smaller space.     |    |
+
+| Voltage Regulator | Pros          | Cons          |
+| -------- | ------------- | ------------- |
+| ![](Images/VR3.png) | - Output voltage is adjustable from 3.3V to 20V in case the power rail needs editing later on.     | - Output current is limited to 500mA maximum with a 380mA recommended.    |
+| LT3433EFE#TRPBF - IC REG BCK BST ADJ 500MA $9.54/ea | - Capable of both stepping-up and stepping-down the input voltage.     | - Far more expensive than most other 3.3V capable regulators.    |
+| [Link](https://www.digikey.com/en/products/detail/analog-devices-inc/LT3433EFE-TRPBF/959580) |       |        |
+
+| UV Light Sensor | Pros          | Cons          |
+| -------- | ------------- | ------------- |
+| ![](Images/LS1.png) | - Senses specifically UV light, eliminating the chances of other light waves interfering with the signal.      | - A 2mm x 2mm dimension will make it harder to install and make sure its working   |
+| LTR-390UV-01 $0.62 | - Great price for our project.      | - Will make the piece hard to attach properly.    |
+| [Link](https://www.digikey.com/en/products/detail/liteon/LTR-390UV-01/7322497) |     |      |
+
+| UV Light Sensor | Pros          | Cons          |
+| -------- | ------------- | ------------- |
+| ![](Images/LS2.png) | - Surface mount which is necessary for our system design   | - Component takes a higher understanding of light sensors     |
+| SI1132-A10-GM-ND $3.61 | - Mainly used for UV light which is what we want for our system     | - A 2mmx2mm dimension makes it harder for us to install and make sure it works properly     |
+| [Link](https://www.digikey.com/en/products/detail/silicon-labs/SI1132-A10-GM/6195840) | - Given PCB outline makes it easier to understand how to install and get running    | -Also reads ambient light so that could effect our UV light readings    |
+
+| Humidity Sensor | Pros          | Cons          |
+| -------- | ------------- | ------------- |
+| ![](Images/HS1.png) | - Very well documented data sheet      | - More expensive. Considering we will need to by multiple in case some get lost or damaged due to their small size     |
+| HDC3022DEJR $5.61 | - Will be easy to find all necessary specifications     | - It could limit our budget    |
+| [Link](https://www.digikey.com/en/products/detail/texas-instruments/HDC3022DEJR/17748469) |      |      |
+
+| Humidity Sensor | Pros          | Cons          |
+| -------- | ------------- | ------------- |
+| ![](Images/HS2.png) | - Cheaper than usual     | - A 2mmx2mm dimension makes it harder for us to install and make sure it works properly     |
+| 1649-SHTC3-TR-10KSTR-ND $2.86 | - Surface mountable     | - Difficult to surface mount because of size of pins |
+| [Link](https://www.digikey.com/en/products/detail/sensirion-ag/SHTC3-TR-10KS/9477851) | -  Can be used as both a temperature and  humidity sensor |    |
+
+| Motor Driver | Pros          | Cons          |
+| -------- | ------------- | ------------- |
+| ![](Images/MD2.png) | - Abnormality Detection Signal Output contributing to high reliability | - Expensive |
+| BD16912EFV-CE2 $6.30 | - Low ON resistance and small package, |  |
+| [Link](https://www.digikey.com/en/products/detail/rohm-semiconductor/BD16912EFV-CE2/10495192) | - Low power consumption and space saving of the set  |  |
+
+| Motor Driver | Pros          | Cons          |
+| -------- | ------------- | ------------- |
+| ![](Images/MD3.png) | - Simple layout     | - More efficient for brushed motors |
+| TB67H451FNG,EL $1.50 | - Cheap | - Half bridge drivers |
+| [Link](https://www.digikey.com/en/products/detail/toshiba-semiconductor-and-storage/TB67H451FNG-EL/11568781) |  |  |
+
+| Temperature Sensor | Pros          | Cons          |
+| -------- | ------------- | ------------- |
+| ![](Images/TS1.png) | - Programmable switch that operates when temperature passes a certain value makes it easy to choose a threshold heat value | - Needs E-96 series standard decade value resistors to program |
+| TMP392A2DRLR $1.16 | - Advertised as ultra low power consumption |  |
+| [Link](https://www.digikey.com/en/products/detail/texas-instruments/TMP392A2DRLR/11308866) |  |  |
+
+| Temperature Sensor | Pros          | Cons          |
+| -------- | ------------- | ------------- |
+| ![](Images/TS2.png) | - Surface mount | - Only 1 wire communication |
+| DS18B20U+ $6.79 | - addition pins for digital outputs | - only digital |
+| [Link](https://www.digikey.com/en/products/detail/analog-devices-inc-maxim-integrated/DS18B20U/1017603) | - set boundaries so it doesn't crash under intense heat | - more expensive |
+
+| Motor | Pros          | Cons          |
+| -------- | ------------- | ------------- |
+| ![](Images/M3.png) | - Easy to work with/easy communication | - Have to buy a pack of 5 |
+| 28BYJ-48 ULN2003 5 pack: 14.99$ | - Part half of a team is working with in 455 | - Couldn’t find on DigiKey |
+| [Link](https://www.amazon.com/ELEGOO-28BYJ-48-ULN2003-Stepper-Arduino/dp/B01CP18J4A/ref=asc_df_B01CP18J4A?tag=bingshoppinga-20&linkCode=df0&hvadid=79852084167122&hvnetw=o&hvqmt=e&hvbmt=be&hvdev=c&hvlocint=&hvlocphy=&hvtargid=pla-4583451663270158&psc=1) | - Great explanation online with a lot of helpful tips |  |
+
+| Motor | Pros          | Cons          |
+| -------- | ------------- | ------------- |
+| ![](Images/M1.png) | - Gear system allows for good torque despite the small size | - Rated for 6V while most of our components are rated for a top range of 5-5.5V |
+| COM0802 $8.50 |  |  |
+| [Link](https://www.digikey.com/en/products/detail/dfrobot/FIT0578/9490123) |  |  |
+
+| OpAmp | Pros          | Cons          |
+| -------- | ------------- | ------------- |
+| ![](Images/OA2.png) | - Easy to work with  | - 1.2MHz current |
+| TLV8802DGKT 1.22$ | - Operates with 0.7V - 5.5V  |  |
+| [Link](https://www.digikey.com/en/products/detail/texas-instruments/TLV8802DGKT/6204638) |    |  |
+
+| OpAmp | Pros          | Cons          |
+| -------- | ------------- | ------------- |
+| ![](Images/OA3.png) | - Operates from 2.7V to 36V as well as 1.35V to 18V | - 6MHz current |
+| TSB511ILT 1.21$ | - Size |  |
+| [Link](https://www.digikey.com/en/products/detail/stmicroelectronics/TSB511ILT/16818509) |  |  |
+
