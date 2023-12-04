@@ -91,16 +91,6 @@ Rationale: The temperature sensor MCP9700T-E/TT can measure temperature from -40
 Rationale: This motor is most ideal for our project because it has a full metal gearbox that provides high torque and durability. It also has a low noise level and a long service life which is needed for being close to ears. The 3mm shaft is great and also its ability to move smoothly and accurately.
 
 --------------
-## OpAmp
 
-| OpAmp | Pros          | Cons          |
-| -------- | ------------- | ------------- |
-| ![](Images/OA1.png) | - Inexpensive and simple use | - High current output |
-| LM324DR $0.37 | - Supply voltage 1.5V to 16V |  |
-| [Link](https://www.digikey.com/en/products/detail/texas-instruments/LM324DR/555719) |  |  |
-
--------------
-
-Rationale: The LM324DR has a very competitive price along with simple usage that will allow us to build the project quickly and efficiently. The simple design of the product also allows for easy testing and debugging in the design as well. Finally, the LM324DR has the ability to amplify up to 4 different signals, allowing us to reduce the amounts of components needed to amplify all of our light sensor signal outputs.
 
 [Return to the top](#table-of-contents)
