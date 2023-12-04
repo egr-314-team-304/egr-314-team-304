@@ -17,10 +17,10 @@
 - [Mission Statement](#Mission-Statement)
 - [Team Charter](#Team-Charter)
 - [Team Organization](#Team-Organization)
-- [Temperature Sensor](#temperature-sensor)
-- [Motor](#motor)
-- [OpAmp](#opamp)
-- [Home Page](index.md)
+- [User Needs and Benchmarking](#User-Needs-and-Benchmarking)
+- [Design Ideations](#Design-Ideations)
+- [Design Selection](#Design-Selection)
+- [Block Diagram](#Block-Diagram)
 ## Mission Statement
 When starting this project, our team came up with a simple and concise mission statement.
 
