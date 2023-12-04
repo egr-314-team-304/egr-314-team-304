@@ -9,7 +9,7 @@
 Description of Concept 1:  
 - Detects humidity and temperature of dirt.
 - Also detects sunlight and heat
-- Sends signal to owner's phone to let them know if the water levels are low or if its not getting enough sun
+- Sends signal to owner's phone to let them know if the water levels are low or if it is not getting enough sun
 
 
 ---
@@ -29,7 +29,7 @@ Description of Concept 2:
 
 ### Concept 3: Cool Hat
 
-![Concept 3 Image](Images/image_2023-08-29_232649040.png)
+![Concept 3 Image](Images/CoolHat.png)
 
 Description of Concept 3:  
 - Utilises multiple light sensors to sense the direction of the sun during the day.
