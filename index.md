@@ -12,7 +12,15 @@
 ## Preparation Date: 12/3/2023
 
 ## ASU, EGR 314, Kevin Nichols
-
+## Table of Contents
+- [Introduction](#)
+- [Mission Statement](#Mission-Statement)
+- [Humidity Sensor](#humidity-sensor)
+- [Motor Driver](#motor-driver)
+- [Temperature Sensor](#temperature-sensor)
+- [Motor](#motor)
+- [OpAmp](#opamp)
+- [Home Page](index.md)
 ## Mission Statement
 When starting this project, our team came up with a simple and concise mission statement.
 
