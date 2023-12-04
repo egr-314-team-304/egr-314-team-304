@@ -15,5 +15,5 @@ plugins:
 # Other configurations...
 
 collections:
-  images:
+  Images:
     output: true
