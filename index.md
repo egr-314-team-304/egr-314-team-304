@@ -155,7 +155,10 @@ Once we had decided on all of the physical components of our design and had a go
  Another lesson learned is to pay close attention to the size of the components purchased, particularly the size and spacing of the pins. It is hard to picture how small components are with just measurements and pictures of the device, or how thin traces need to be until the PCB board is printed out. Sensors can get very small very easily and many are not designed to be soldered by hand. This can create a big issue, particularly for testing the individual component testing and debugging, where more time may be in trying to ensure connections of tiny pins to thin traces than actually debugging and testing.
  
 For the final demonstration, the voltage regulator would not output any desired voltage, and the most likely culprit for this was a miscalculation for the input/output loads based on our design. Additional inductors or capacitors on the input line may have been required due to the line being split going into the regulator and the motor controller directly. To note during troubleshooting, a bypass capacitor on both the input/output was changed to 10uF to induce more and this did not resolve the issue. For this reason, we felt that we may have needed to calculate using more inductors as the signal was probably too rough for the regulator to work.
-## Appendix
+
+---
+
+# Appendix
 
 ## [Presentation 1](presentation-1.md)
 
