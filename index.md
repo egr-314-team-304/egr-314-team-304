@@ -56,7 +56,6 @@ A link to the final MPLAB X code created for the project. Includes images from M
 ## [ESP32 Code](esp32.md)
 
 -------------
-# Checkpoint 2
 
 ## [Design Selection](Design-Selection.md)
 Our team is designing a smart hat with temperature and light sensors to monitor its internal environment. If the temperature goes beyond a set limit, an integrated fan turns on for cooling. The hat's brim also rotates to shield the wearer from direct sunlight, regardless of the sun's position. This tech-infused hat ensures optimal comfort and adaptability for outdoor activities.
