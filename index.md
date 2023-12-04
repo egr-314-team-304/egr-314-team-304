@@ -59,6 +59,8 @@ After our insightful brainstorming session, our team embarked on a journey to am
 ## [PIC Code](pic.md)
 A link to the final MPLAB X code created for the project. Includes images from MPLAB X MCC Harmony.
 
+![Image](Images/MCC-Pin-Diagram.png)
+
 ----
 
 ## [ESP32 Code](esp32.md)
