@@ -128,7 +128,7 @@ One of the biggest lessons learned was to give more investigation into the micro
 For final demonstration the voltage regulator would not output any desired voltage, and the most likely culprit for this was a miscalculation for the input/output loads based on our design. Additional inductors or capacitors on the input line may have been required due to the line being split going into the regulator and the motor controller directly. To note during troubleshooting, a bypass capacitor on both the input/output were changed to 10uF to induce more and this did not resolve the issue. For this reason we felt that we may have needed to calculate using more inductors as the signal was probably too rough for the regulator to work.
 
 
-## Apendix
+## Appendix
 
 ## [Presentation 1](presentation-1.md)
 
