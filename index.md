@@ -67,7 +67,7 @@ After our insightful brainstorming session, our team embarked on a journey to am
 ----
 
 ## [PIC Code](pic.md)
-A link to the final MPLAB X code created for the project. Includes images from MPLAB X MCC Harmony. The below image shows the pin layout used minus two pins. Pins 4/5 (RB0/1) are shown as unassigned, but they are left as the default PGD and PGC lines for programming. Harmony does not allow you to assign programming/debug to any pins; only overwrite them the defaults.
+A link to the final MPLAB X code created for the project. Includes images from MPLAB X MCC Harmony. The below image shows the pin layout used minus two pins. Pins 4/5 (RB0/1) are shown as unassigned, but they are left as the default PGD and PGC lines for programming. Harmony does not allow you to assign programming/debug to any pins; only overwrite them as the defaults.
 
 ![Image](Images/MCC-Pin_Diagram.png)
 
