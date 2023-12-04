@@ -28,10 +28,11 @@
 - [Component Selection](#Component-Selection)
 - [Power Budget](#Power-Budget)
 - [Microcontroller Selection](#Microcontroller-Selection)
-- [Hardware Implementation](#Hardware-Proposal)
-- [Software Implementation](#Software-Proposal)
+- [Final Hardware Implentation](#Final-Hardware-Implentation)
+- [Final Software Implentation](#Final-Software-Implentation)
 - [Lessons Learned](#Lessons-Learned)
 - [Appendix](#Appendix)
+
 
 ---
 
@@ -134,12 +135,12 @@ After considering our choices, we went for the PIC32MX250F128B.
 
 ---
 
-## [Hardware Implementation](Hardware-Proposal.md)
+## [Final Hardware Implentation](Hardware-Proposal.md)
 Once our components and microcontrollers had been selected, we needed to put them all together. First, each team member created a design for an individual subsystem. These subsystems consisted of the motor controller, the power regulator, and the light, temperature, and humidity sensors. From there, all the subsystems needed to be put together into a single schematic. Some of the issues that arose were figuring out how to connect all the components to the single microcontroller. One solution to use fewer pins was to connect the light sensor and temperature sensor to the same I2C pins and use different addresses as a way to separate their communications. Finishing the hardware proposal was an important milestone in creating our final product, as it creates the blueprint for the physical PCB and component connections. 
 
 ---
 
-## [Software Implementation](Software-Proposal.md)
+## [Final Software Implentation](Software-Proposal.md)
 Once we have decided all of the physical components of our design and have a good idea of how they fit together, we were ready to start thinking of how they work together. While we still didn't have physical hardware to code yet, a software proposal is useful for envisioning how all the components being designed would work together logically. Additionally, a good software proposal is a good foundation for the code when it is time to start developing it. 
 
 ---
