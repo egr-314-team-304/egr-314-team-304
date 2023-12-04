@@ -109,5 +109,7 @@ For final demonstration the voltage regulator would not output any desired volta
 
 
 ## Apendix
+
 ## [Presentation 1](presentation-1.md)
+
 ## [Team Checkpoint](checkpoint-1.md)
