@@ -12,6 +12,9 @@
 ## Preparation Date: 12/3/2023
 
 ## ASU, EGR 314, Kevin Nichols
+
+---
+
 ## Table of Contents
 
 - [Introduction](#)
@@ -30,8 +33,19 @@
 - [Lessons Learned](#Lessons-Learned)
 - [Appendix](#Appendix)
 
+---
+
 ## Introduction
 Our team was tasked with creating a device that uses multiple serial communication sensors and an actuator to respond to it's environment and complete a task. The device should also feature wifi connectivity to broadcast data through an MQTT protocal. After some brainstorming and organization, our team decided on a smart hat that could turn the brim of the hat to always face the sun in any orientation and could  broadcast information on the temperature and weather to the user.
+
+---
+
+## Introduction
+The purposes of this report are to showcase the finalized ideas, iterations, and implementations of our group project to create an embedded system that could rotate a hat when sensing light from a certain direction. The hat would also utilize fans to help cool the user wearing it when specific temperature and/or humidity thresholds were reached. While working on the project the scope required for all of this needed to be brought down. Eventually the idea of light from multiple directions became too complicated and required too many individual sensors. This was reduced down to one and would move the hat to one of two locations based on how much light it detected. The fans were also removed during the process due to cost limitations. Ultimately, there were various issues that happened which prevented a fully-functioning prototype, but the lessons learned from it  all made for good experience for the future.
+
+When going through this report please feel free to click the hyperlinks embedded into some of the headlines for more detailed information. The following are shortened for ease of use.
+
+---
 
 ## Mission Statement
 When starting this project, our team came up with a simple and concise mission statement.
