@@ -234,4 +234,6 @@ For the final demonstration, the voltage regulator would not output any desired 
 | COM0802 $8.50 |  |  |
 | [Link](https://www.digikey.com/en/products/detail/dfrobot/FIT0578/9490123) |  |  |
 
+## Bill of Materials
+![Image](Images/314_BOM.png)
 
