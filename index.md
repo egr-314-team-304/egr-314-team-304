@@ -17,7 +17,7 @@
 
 ## Table of Contents
 
-- [Introduction](#)
+- [Introduction](#Introduction)
 - [Mission Statement](#Mission-Statement)
 - [Team Charter](#Team-Charter)
 - [Team Organization](#Team-Organization)
