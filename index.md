@@ -1,3 +1,5 @@
+theme: jekyll-theme-midnight
+
 # Cool Hat Project
 
 ## Team 304
