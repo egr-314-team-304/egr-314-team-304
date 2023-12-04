@@ -9,7 +9,7 @@
 - **Ivan Makarenko**
 - **Roshan Patel**
 
-## Preparation Date: 10/16/2023
+## Preparation Date: 12/3/2023
 
 ## ASU, EGR 314, Kevin Nichols
 
@@ -57,6 +57,7 @@ After our insightful brainstorming session, our team embarked on a journey to am
 ----
 
 ## [PIC Code](pic.md)
+A link to the final MPLAB X code created for the project. Includes images from MPLAB X MCC Harmony.
 
 ----
 
