@@ -66,7 +66,7 @@ Our group set out to consider what benefits we hoped to find through the creatio
 
 
 ## [Team Organization](team-organization.md)
-Team communication and synergy, as well as a consistant working schedual are vital components to creating a succesful project. To ensure we could acheive these provisions we set out to find what times we could all meet up to schedual meetings, and established our main modes of team communication. 
+Team communication and synergy, as well as a consistent working schedule, are vital components to creating a successful project. To ensure we could achieve these provisions we set out to find what times we could all meet up to schedule meetings and establish our main modes of team communication. 
 
 ---
 
@@ -98,7 +98,7 @@ Our team is designing a smart hat with temperature and light sensors to monitor 
 
 ## [Block Diagram](Block-Diagram.md)
 
-The block diagram explains how the PCB will function with all the components at a hardware scale. The diagram explains that the board will be supplied with 12V, but the regulator reduces it to 3.3V for operation. The light, temperature, and humidity sensors will communicate through I2C (two components will be using the same I2C pin for communication without interference), while the motor driver runs on SPI. The user can see the data through an OLED Display and through a device via WiFi on the ESP32 module. 
+The block diagram explains how the PCB will function with all the components at a hardware scale. The diagram explains that the board will be supplied with 12V, but the regulator reduces it to 3.3V for operation. The light, temperature, and humidity sensors will communicate through I2C (two components will be using the same I2C pin for communication without interference), while the motor driver runs on SPI. The user can see the data through an OLED Display and a device via WiFi on the ESP32 module. 
 
 ![Image](Images/BlockDiagram.png)
 
@@ -136,21 +136,21 @@ After considering our choices, we went for the PIC32MX250F128B.
 ---
 
 ## [Final Hardware Implentation](Hardware-Proposal.md)
-Once our components and microcontrollers had been selected, we needed to put them all together. First, each team member created a design for an individual subsystem. These subsystems consisted of the motor controller, the power regulator, and the light, temperature, and humidity sensors. From there, all the subsystems needed to be put together into a single schematic. Some of the issues that arose were figuring out how to connect all the components to the single microcontroller. One solution to use fewer pins was to connect the light sensor and temperature sensor to the same I2C pins and use different addresses as a way to separate their communications. Finishing the hardware proposal was an important milestone in creating our final product, as it creates the blueprint for the physical PCB and component connections. 
+Once our components and microcontrollers had been selected, we needed to put them all together. First, each team member created a design for an individual subsystem. These subsystems consisted of the motor controller, the power regulator, and the light, temperature, and humidity sensors. From there, all the subsystems needed to be put together into a single schematic. Some of the issues that arose were figuring out how to connect all the components to the single microcontroller. One solution to use fewer pins was to connect the light sensor and temperature sensor to the same I2C pins and use different addresses as a way to separate their communications. Finishing the hardware proposal was an important milestone in creating our final product, as it created the blueprint for the physical PCB and component connections. 
 
 ---
 
 ## [Final Software Implentation](Software-Proposal.md)
-Once we have decided all of the physical components of our design and have a good idea of how they fit together, we were ready to start thinking of how they work together. While we still didn't have physical hardware to code yet, a software proposal is useful for envisioning how all the components being designed would work together logically. Additionally, a good software proposal is a good foundation for the code when it is time to start developing it. 
+Once we had decided on all of the physical components of our design and had a good idea of how they fit together, we were ready to start thinking of how they work together. While we still don't have physical hardware to code yet, a software proposal is useful for envisioning how all the components being designed would work together logically. Additionally, a good software proposal is a good foundation for the code when it is time to start developing it. 
 
 ---
 
 ## Lessons Learned
- One of the biggest lessons learned was to give more investigation into the microcontroller selection. While the PIC32 that we chose had many advantages for use in what we wanted to do, it had the downside of using MPLAB Harmony only. This added additional learning, and the code used in MCC on other PICs did not actually work for this. Along with this the PIC32 we had was internally shorted on the Vdd pin to Vss. We should have had each member order samples from Microchip, but only had one. When this one failed we only had a DIP version to fall back on. To add onto the need to investigate more, it would have been better to go with a PIC that had more pins. We had a couple extra, but the amount needed by the motor controller we chose ended up increasing what was used. This made the OLED pins move to the ESP32 and complicated actual pin selection for the final design as some pins could not be changed. A 40 pin PIC would have probably been ideal for ease.
+ One of the biggest lessons learned was to give more investigation into the microcontroller selection. While the PIC32 that we chose had many advantages for use in what we wanted to do, it had the downside of using MPLAB Harmony only. This added additional learning, and the code used in MCC on other PICs did not work for this. Along with this, the PIC32 we had was internally shorted on the Vdd pin to Vss. We should have had each member order samples from Microchip, but only had one. When this one failed we only had a DIP version to fall back on. To add to the need to investigate more, it would have been better to go with a PIC that had more pins. We had a couple extra, but the amount needed by the motor controller we chose ended up increasing what was used. This made the OLED pins move to the ESP32 and complicated the actual pin selection for the final design as some pins could not be changed. A 40-pin PIC would have probably been ideal for ease.
  
- Another lesson learned is to pay close attention to the size of the components purchased, particularly the size and spacing of the pins. It is hard to picture how small components really are with just measurements and pictures of the device, or how thin traces need to be until the PCB board is printed out. Sensors can get very small very easily and many are not designed to be soldered by hand. This can create a big issue particulary for testing the individual component testing and debugging, where more time may be in trying to ensure connections of tiny pins to thin traces than actually debugging and testing.
+ Another lesson learned is to pay close attention to the size of the components purchased, particularly the size and spacing of the pins. It is hard to picture how small components are with just measurements and pictures of the device, or how thin traces need to be until the PCB board is printed out. Sensors can get very small very easily and many are not designed to be soldered by hand. This can create a big issue, particularly for testing the individual component testing and debugging, where more time may be in trying to ensure connections of tiny pins to thin traces than actually debugging and testing.
  
-For final demonstration the voltage regulator would not output any desired voltage, and the most likely culprit for this was a miscalculation for the input/output loads based on our design. Additional inductors or capacitors on the input line may have been required due to the line being split going into the regulator and the motor controller directly. To note during troubleshooting, a bypass capacitor on both the input/output were changed to 10uF to induce more and this did not resolve the issue. For this reason we felt that we may have needed to calculate using more inductors as the signal was probably too rough for the regulator to work.
+For the final demonstration, the voltage regulator would not output any desired voltage, and the most likely culprit for this was a miscalculation for the input/output loads based on our design. Additional inductors or capacitors on the input line may have been required due to the line being split going into the regulator and the motor controller directly. To note during troubleshooting, a bypass capacitor on both the input/output was changed to 10uF to induce more and this did not resolve the issue. For this reason, we felt that we may have needed to calculate using more inductors as the signal was probably too rough for the regulator to work.
 ## Appendix
 
 ## [Presentation 1](presentation-1.md)
@@ -180,7 +180,7 @@ For final demonstration the voltage regulator would not output any desired volta
 | -------- | ------------- | ------------- |
 | ![](Images/LS2.png) | - Surface mount which is necessary for our system design   | - Component takes a higher understanding of light sensors     |
 | SI1132-A10-GM-ND $3.61 | - Mainly used for UV light which is what we want for our system     | - A 2mmx2mm dimension makes it harder for us to install and make sure it works properly     |
-| [Link](https://www.digikey.com/en/products/detail/silicon-labs/SI1132-A10-GM/6195840) | - Given PCB outline makes it easier to understand how to install and get running    | -Also reads ambient light so that could effect our UV light readings    |
+| [Link](https://www.digikey.com/en/products/detail/silicon-labs/SI1132-A10-GM/6195840) | - Given PCB outline makes it easier to understand how to install and get running    | -Also reads ambient light so that could affect our UV light readings    |
 
 | Humidity Sensor | Pros          | Cons          |
 | -------- | ------------- | ------------- |
@@ -208,8 +208,8 @@ For final demonstration the voltage regulator would not output any desired volta
 
 | Temperature Sensor | Pros          | Cons          |
 | -------- | ------------- | ------------- |
-| ![](Images/TS1.png) | - Programmable switch that operates when temperature passes a certain value makes it easy to choose a threshold heat value | - Needs E-96 series standard decade value resistors to program |
-| TMP392A2DRLR $1.16 | - Advertised as ultra low power consumption |  |
+| ![](Images/TS1.png) | - Programmable switch that operates when the temperature passes a certain value makes it easy to choose a threshold heat value | - Needs E-96 series standard decade value resistors to program |
+| TMP392A2DRLR $1.16 | - Advertised as ultra-low power consumption |  |
 | [Link](https://www.digikey.com/en/products/detail/texas-instruments/TMP392A2DRLR/11308866) |  |  |
 
 | Temperature Sensor | Pros          | Cons          |
