@@ -21,6 +21,7 @@
 - [Design Ideations](#Design-Ideations)
 - [Design Selection](#Design-Selection)
 - [Block Diagram](#Block-Diagram)
+- 
 ## Mission Statement
 When starting this project, our team came up with a simple and concise mission statement.
 
