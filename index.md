@@ -13,7 +13,7 @@
 
 ## ASU, EGR 314, Kevin Nichols
 
-# Mission Statement
+## Mission Statement
 When starting this project, our team came up with a simple and concise mission statement.
 
 __Our goal is to create a device that utalizes multiple unique sensors to take input from its environment 
@@ -21,7 +21,7 @@ to perform a meaningful or beneficial task.__
 
 
 ---
-# Team Charter
+## Team Charter
 Our group set out to consider what benefits we hoped to find through the creation of a succesful project.  we thought of how a succesful design and implementation could benefit us personally, more then just the scope of the class. This would be the foundation of our team charter, a set of common goals for our team to allign with and strive for. 
 - Gain more insight into creating electronic systems utilizing industry-level software such as Orcad Cadence, and MPlab.
 - Gaining more experience in the design and construction of different serial sensing and actuation circuits.
