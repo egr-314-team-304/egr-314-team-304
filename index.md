@@ -30,6 +30,8 @@
 - [Lessons Learned](#Lessons-Learned)
 - [Appendix](#Appendix)
 
+## Introduction
+Our team was tasked with creating a device that uses multiple serial communication sensors and an actuator to respond to it's environment and complete a task. The device should also feature wifi connectivity to broadcast data through an MQTT protocal. After some brainstorming and organization, our team decided on a smart hat that could turn the brim of the hat to always face the sun in any orientation and could  broadcast information on the temperature and weather to the user.
 
 ## Mission Statement
 When starting this project, our team came up with a simple and concise mission statement.
