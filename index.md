@@ -21,7 +21,15 @@
 - [Design Ideations](#Design-Ideations)
 - [Design Selection](#Design-Selection)
 - [Block Diagram](#Block-Diagram)
-- 
+- [Component Selection](#Component-Selection)
+- [Power Budget](#Power-Budget)
+- [Microcontroller Selection](#Microcontroller-Selection)
+- [Hardware Proposal](#Hardware-Proposal)
+- [Software Proposal](#Software-Proposal)
+- [Lessons Learned](#Lessons-Learned)
+- [Appendix](#Appendix)
+
+
 ## Mission Statement
 When starting this project, our team came up with a simple and concise mission statement.
 
