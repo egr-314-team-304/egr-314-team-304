@@ -48,14 +48,6 @@ After our insightful brainstorming session, our team embarked on a journey to am
 
 ----
 
-## [Presentation 1](presentation-1.md)
-
-----
-
-## [Team Checkpoint](checkpoint-1.md)
-
-----
-
 ## [PIC Code](pic.md)
 A link to the final MPLAB X code created for the project. Includes images from MPLAB X MCC Harmony.
 
@@ -117,3 +109,5 @@ For final demonstration the voltage regulator would not output any desired volta
 
 
 ## Apendix
+## [Presentation 1](presentation-1.md)
+## [Team Checkpoint](checkpoint-1.md)
