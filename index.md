@@ -15,8 +15,8 @@
 ## Table of Contents
 - [Introduction](#)
 - [Mission Statement](#Mission-Statement)
-- [Humidity Sensor](#humidity-sensor)
-- [Motor Driver](#motor-driver)
+- [Team Charter](#Team-Charter)
+- [Team Organization](#Team-Organization)
 - [Temperature Sensor](#temperature-sensor)
 - [Motor](#motor)
 - [OpAmp](#opamp)
