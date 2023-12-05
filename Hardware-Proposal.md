@@ -11,8 +11,10 @@ Our hardware design utalizes the PIC3232MX250F128B to control and collect data f
 ![Final PCB](Images/team-pcb.png)
 
 An overview of our finalized PCB. This is the only image available due to export license issues in Cadence. Two images of the final printed version below.
+
 ![PCB Front](Images/pcb-front.jpg)
 ![PCB Back](Images/pcb-back.jpg)
+An image of the final hardware all put together. Unfortunatly, our surface mount pic32mx250f128b was shorted from the vdd ling to gnd. Becuase of this, we connected a spare through hole pic to a perfboard and placed wire connections to each of the pic surface mount pads to connect the pic. 
 
 
 ## Bill of Materials
