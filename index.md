@@ -30,7 +30,9 @@
 - [Microcontroller Selection](#Microcontroller-Selection)
 - [Final Hardware Implentation](#Final-Hardware-Implentation)
 - [Final Software Implentation](#Final-Software-Implentation)
+- [System Verification](#System-Verification)
 - [Lessons Learned](#Lessons-Learned)
+- [Future Recommendations](#Future-Recommendations)
 - [Appendix](#Appendix)
 
 
