@@ -24,6 +24,8 @@
 - [User Needs and Benchmarking](#User-Needs-and-Benchmarking)
 - [Design Ideations](#Design-Ideations)
 - [Design Selection](#Design-Selection)
+- [PIC Code](#PIC-Code)
+- [ESP32 Code](#ESP32-Code)
 - [Block Diagram](#Block-Diagram)
 - [Component Selection](#Component-Selection)
 - [Power Budget](#Power-Budget)
