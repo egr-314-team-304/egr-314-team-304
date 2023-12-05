@@ -255,4 +255,4 @@ For this project, we were tasked with using MQTT for wifi connectivity. Particul
 
 ## Bill of Materials
 ![Image](Images/314_BOM.png)
-
+![Image](Images/mouser_bill.png)
