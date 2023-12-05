@@ -154,6 +154,7 @@ Once we had decided on all of the physical components of our design and had a go
 ---
 ## System Verification
 ![Image](Images/System_verification.PNG)
+---
 
 ## Lessons Learned
  One of the biggest lessons learned was to give more investigation into the microcontroller selection. While the PIC32 that we chose had many advantages for use in what we wanted to do, it had the downside of using MPLAB Harmony only. This added additional learning, and the code used in MCC on other PICs did not work for this. Along with this, the PIC32 we had was internally shorted on the Vdd pin to Vss. We should have had each member order samples from Microchip, but only had one. When this one failed we only had a DIP version to fall back on. To add to the need to investigate more, it would have been better to go with a PIC that had more pins. We had a couple extra, but the amount needed by the motor controller we chose ended up increasing what was used. This made the OLED pins move to the ESP32 and complicated the actual pin selection for the final design as some pins could not be changed. A 40-pin PIC would have probably been ideal for ease.
