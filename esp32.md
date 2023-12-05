@@ -1,12 +1,13 @@
-for esp32 code
-//
+Python script for Thonny that communicates with the ESP32 and controls the IFX9201SGAUMA1 motor driver, based on sensor inputs and in coordination with a PIC32MX250F128B microcontroller
+
+```python
 import machine
 import time
 
-# UART
+# UART configuration
 uart = machine.UART(1, baudrate=9600, tx=17, rx=16)
 
-# Motor control pins
+# Motor control pins (modify as per your connection)
 motor_pin = machine.Pin(5, machine.Pin.OUT)
 
 def rotate_motor(direction):
@@ -27,5 +28,7 @@ while True:
             # Assuming data is either 'clockwise' or 'counter-clockwise'
             rotate_motor(data)
     time.sleep(0.1)
-    
+
+```
+
 [Home Page](index.md)
