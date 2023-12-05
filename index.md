@@ -166,6 +166,7 @@ When choosing a pic devices, stick with a 16 bit device as it is what is most co
 
 When choosing surface mount capacitors, resistors, and/or inductors, pay attention to the package size of the component. In Digikey it can be narrowed down with the Package/Case selection list. 1206 is a decent size (12.6 x 6.3 mils or 3.2 x 1.6 mm), but smaller sizes such as the 0805 or 0603 can become very difficult to work with. For some context to each size, the first two numbers in the pakage demension or the approximate length in mils while the other two are the approximate width.
 
+For this project, we were tasked with using MQTT for wifi connectivity. Particularly we were asked to use a python based IDE such as Thonny to program an ESP32 to set up MQTT communication. When setting up, it is important to note that Python has a major update every year. This can lead multiple firmwares to choose from when setting up the project. Becuase Python updates frequently, if the project example being followed is from the past, the latest firmware option might not be compatible with thte example being used. When following an example, if it states to use the latest version, investigate when the project example was made and use the latest version of the time or it may lead to an error. 
 
 ---
 
